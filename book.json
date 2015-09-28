@@ -1,0 +1,22 @@
+{
+	"gitbook": ">=2.0.0",
+	"title": "Nettiniilo-ohjeet",
+	"description": "",
+	"language": "fi",
+	"structure": {
+
+	},
+	"variables": {
+		"abitti": {
+			"urls": {
+				"admin": "10.10.0.10",
+				"share": "10.10.0.10:443",
+				"upload": "10.10.0.10:8010"
+			},
+			"browser": "Iceweasel"
+		},
+		"netti": {
+
+		}
+	}
+}

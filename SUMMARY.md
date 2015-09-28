@@ -1,0 +1,15 @@
+# Nettiniilon käyttöohjeet
+
+- [Johdanto](README.md)
+- [Nettiniilon käyttöönotto](kayttoonotto.md)
+- [Abitti-moodi](abitti/README.md)
+	- [Opettajalle](abitti/opettajalle.md)
+	- [Opiskelijalle](abitti/opiskelijalle.md)
+	- [Tietohallinnolle](abitti/tietohallinnolle.md)
+- [Netti-moodi](netti/README.md)
+	- [Opettajalle](netti/opettajalle.md)
+	- [Opiskelijalle](netti/opiskelijalle.md)
+	- [Tietohallinnolle](netti/tietohallinnolle.md)
+- [Kehityslista](kehityslista.md)
+- [Versiohistoria](versiohistoria.md)
+- [Tekniset tiedot](tekniset-tiedot.md)
