@@ -38,7 +38,7 @@ Nettiniilon avulla opettajasi voi jakaa tiedostoja käyttöösi oheisaineistoiks
 
 1. Avaa *{{ book.abitti.browser }}*-selaimessasi uusi ikkuna (`Ctrl+N`) tai uusi välilehti (`Ctrl+T`).
 	- {{ book.abitti.browser }} on se ohjelma, joka aukeaa automaattisesti Abitti-järjestelmän käynnistäessäsi.
-2. Kirjoita selainikkunan osoiteriville: [{{ book.abitti.urls.share }}](http://{{ book.abitti.urls.share }}) ja paina *Enter*.
+2. Kirjoita selainikkunan osoiteriville: <{{ book.abitti.urls.share }}> ja paina *Enter*.
 3. Näet nyt listauksen opettajasi sinulle jakamista oheisaineistoista.
 	- Mikäli opettajasi ei ole jakanut sinulle oheisaineistoja, näet "Nettiniilon materiaalipankki" -sisääntulosivun.
 4. Tiedostoja saat avattua klikkaamalla tiedoston nimen mukaista linkkiä.
@@ -77,5 +77,5 @@ Ladatttavia ja sen jälkeen erikseen avattavia tiedostotyyppejä ovat mm. seuraa
 Ohjelmistoversiosta 1.1 alkaen Nettiniilo mahdollistaa tiedostojen palauttamisen opiskelijoilta opettajalle. Palauttaaksesi vastaustiedostoja opettajallesi, toimi seuraavasti:
 
 1. Avaa selaimessasi uusi ikkuna (`Ctrl+N`) tai uusi välilehti (`Ctrl+T`).
-2. Kirjoita selainikkunan osoiteriville: [{{ book.abitti.urls.upload }}]({{ book.abitti.urls.upload }}) ja paina *Enter*.
+2. Kirjoita selainikkunan osoiteriville: <{{ book.abitti.urls.upload }}> ja paina *Enter*.
 3. Rekisteröidyttyäsi tiedostopalautukseen nimelläsi voit lähettää tiedostoja opettajallesi.

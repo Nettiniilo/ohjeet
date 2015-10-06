@@ -11,7 +11,7 @@ Ottaaksesi Nettiniilon käyttöön Abitti-järjestelmän kanssa käytettäväksi
 3. Kytke virtajohdon toinen pää seinän virtaliittimeen.
 4. Odota, että Nettiniilo käynnistyy.
 	- Laite on valmis käytettäväksi kun laitteen päällä oleva WLAN-valo syttyy.
-	- **HUOM!** Ennen 25.8.2015 toimitettujen Nettiniilojen mukana tulleissa ohjeissa kehotetaan odottamaan WPS-valon vilkkumisen päättymistä. Noudata kuitenkin yllä olevaa ohjetta.
+	- **HUOM!** Ennen 25.8.2015 toimitettujen Nettiniilojen mukana tulleissa ohjeissa kehotetaan odottamaan WPS-valon vilkkumisen päättymistä. Noudata kuitenkin yllä annettua ohjetta.
 5. Varmista, että Nettiniilo on Abitti-moodissa:
 	- Mikäli laitteen päällä oleva WPS-valo palaa, laite on Abitti-moodissa.
 	- Mikäli laitteen päällä oleva WPS-valo ei pala:
@@ -52,7 +52,7 @@ Jotta opiskelijoiden Abitti-muistitikuilta käynnistetyt koneet voivat kommuniko
 Nyt kun olet käynnistänyt Nettiniilon, asettanut sen Abitti-moodiin, käynnistänyt Abitti-koetilapalvelimen ja liittänyt koetilapalvelimen ethernet-johdolla Nettiniilon PoE LAN -porttiin, voit jatkaa seuraavaan vaiheeseen eli kirjautua sisään Nettiniilon hallintapaneeliin Abitti-koetilapalvelimelta:
 
 1. Avaa koetilapalvelimen {{ book.abitti.browser }}-selainohjelmassa uusi välilehti painamalla `Ctrl+T`.
-2. Mene selainikkunassa seuraavaan osoitteeseen: [{{ book.abitti.urls.admin }}](http://{{ book.abitti.urls.admin }})
+2. Mene selainikkunassa seuraavaan osoitteeseen: <{{ book.abitti.urls.admin }}>
 3. Nyt sinulle tulisi aueta kaavake, jossa saatetietona on *Nettiniilon hallinta* ja sinua pyydetään syöttämään käyttäjätunnus ja salasana Nettiniilon hallintapaneeliin kirjautuaksesi.
 4. Syötä laitteen mukana toimitettuihin ohjeisiin kirjattu käyttäjätunnus ja salasana laitteen.
 	- HUOM! Huomioithan, että salasana voi olla myös muutettu tehdasasetuksista
@@ -65,7 +65,7 @@ Nyt kun olet käynnistänyt Nettiniilon, asettanut sen Abitti-moodiin, käynnist
 	- Abitti-koetilapalvelimessa on oletuksena käytössä {{ book.abitti.browser }}-selain, joka on käytännössä Firefox muutamia eroavaisuuksia lukuunottamatta.
 	- Tiedossa on, että Internet Explorer -selaimella hallintapaneeli ei välttämättä toimi oikein. Tämä ei ole ongelma Abitti-moodissa, mutta Netti-moodissa kylläkin.
 - Jotta hallintapaneeliin meneminen onnistuu 17.8.2015 jälkeen päivitetyllä Abitti-palvelintikulla (Abitti-palvelintikun v37 tai uudempi), on Nettiniilon ohjelmistoversion oltava vähintään v1.0.0!* Mikäli näin ei ole, päivitä Nettiniilo ensin Netti-moodissa!
-- Halutessasi kirjautua hallintapaneeliin, älä kirjoita osoitetta [{{ book.abitti.urls.admin }}](http://{{ book.abitti.urls.admin }}) selaimen mahdolliseen hakukenttään ruudun pystysuunnassa keskelle vaan selaimen yläreunassa olevaan osoitekenttään. Paina tämä jälkeen `Enter`.
+- Halutessasi kirjautua hallintapaneeliin, älä kirjoita osoitetta <{{ book.abitti.urls.admin }}> selaimen mahdolliseen hakukenttään ruudun pystysuunnassa keskelle vaan selaimen yläreunassa olevaan osoitekenttään. Paina tämä jälkeen `Enter`.
 
 
 ## WLAN-verkon nimen ja salasanan tarkistaminen/asettaminen
@@ -115,8 +115,8 @@ Nettiniilo tarjoaa opettajalle mahdollisuuden jakaa oheisaineistoja opiskelijoid
 - PDF-tiedostot (.pdf)
 - Kuvatiedostot (muun muassa: .png, .jpg, .gif, .svg, .psd, .xcf)
 - GeoGebra-tiedostot (.ggb)
-- Äänitiedostot (.ogg)
-- Videotiedostot (.webm ja .ogv)
+- Äänitiedostot (.mp3, .wav, .ogg)
+- Videotiedostot (.mp4, .avi, .mov, .webm, .ogv)
 
 #### Huomio YTL:n toimien vaikutuksesta aineistonjakoon
 
@@ -129,7 +129,7 @@ Tiedostoja jaetaan opiskelijoille tallentamalla jaettavaksi halutut tiedostot om
 #### Tiedostojenjaon osoite Abitti-moodissa
 
 Abitti-moodissa opiskelijat pääsevät tarkastelemaan tiedostojenjaossa tarjolla olevaa aineistoa osoitteessa:
-[{{ book.abitti.urls.share }}](http://{{ book.abitti.urls.share }}) . Huomaa, että Abitti-koetilapalvelimelta ei ole pääsyä kyseiseen osoitteeseen koetilapalvelimen osoiterajauksista johtuen.
+<{{ book.abitti.urls.share }}> . Huomaa, että Abitti-koetilapalvelimelta ei ole pääsyä kyseiseen osoitteeseen koetilapalvelimen osoiterajauksista johtuen.
 
 #### Ei skandeja ja lainausmerkkejä tiedostonimiin
 
@@ -138,10 +138,10 @@ Huomaa, että tiedostoja opiskelijoille Nettiniilon kautta jaettaessa älä käy
 
 ### Tiedostojen palautus
 
-Nettiniilon ohjelmistopäivityksen version 1.1 myötä opiskelijat voivat myös palauttaa tiedostoja opettajalle menemällä Abitti-järjestelmäään käynnistetyllä selaimellaan tiedostojenpalautuksen osoitteeseen: [{{ book.abitti.urls.upload }}]({{ book.abitti.urls.upload }})
+Nettiniilon ohjelmistopäivityksen version 1.1 myötä opiskelijat voivat myös palauttaa tiedostoja opettajalle menemällä Abitti-järjestelmäään käynnistetyllä selaimellaan tiedostojenpalautuksen osoitteeseen: <{{ book.abitti.urls.upload }}>
 
 Näin ollen Abitti-kokeissa on mahdollista toteuttaa laajempia kysymystyyppejä kun vastaukset eivät ole rajoitettuja Abitti-järjestelmän tarjoamiin pelkkiin tekstivastauksiin.
 
 #### Tiedostojenpalautukseen ei pääsyä koetilapalvelimelta
 
-Huomaa, että opettajan koetilapalvelimelta ei ole koetilapalvelimen palomuuriasetuksista johtuen pääsyä tiedostojenpalautuksen mukaiseen osoitteeseen ([{{ book.abitti.urls.upload }}]({{ book.abitti.urls.upload }})) vaikka opiskelijoiden Abitti-järjestelmään käynnistetyiltä koneilta kyseiseen osoitteseen onkin pääsy.
+Huomaa, että opettajan koetilapalvelimelta ei ole koetilapalvelimen palomuuriasetuksista johtuen pääsyä tiedostojenpalautuksen mukaiseen osoitteeseen (<{{ book.abitti.urls.upload }}>) vaikka opiskelijoiden Abitti-järjestelmään käynnistetyiltä koneilta kyseiseen osoitteseen onkin pääsy.

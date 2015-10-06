@@ -8,8 +8,9 @@ Seuraavat asiat ovat joko tehtävälistalla tai niiden toteuttamisen mahdollisuu
 
 |Opet | Opisk | IT | Moodi | Kuvaus           | Status  |
 |:---:|:-----:|:--:|-------|------------------|---------|
-| x   | x     |    | Abitti, Netti| Tiedostoja opiskelijoille jaettaessa tiedostonimet eivät saa tällä hetkellä sisältää ääkkösiä eivätkä lainausmerkkejä. Ääkkösten mahdollistaminen on tarpeen. | todo |
-| x   | x     |    | Netti | Opiskelijoiden on liityttävä Nettiniilon tarjoamaan langattomaan verkkoon noin yksi opiskelija per 1-2 sekuntia. | todo |
+| x   | x     |    | Abitti, Netti| Tiedostoja opiskelijoille jaettaessa tiedostonimet eivät saa tällä hetkellä sisältää ääkkösiä eivätkä lainausmerkkejä. Ääkkösten mahdollistaminen on tarpeen. | korjataan |
+| x   | x     |    | Netti | Opiskelijoiden on liityttävä Nettiniilon tarjoamaan langattomaan verkkoon noin yksi opiskelija per 1-2 sekuntia. | parannetaan |
+| x   | x     |    | Netti | Jos Nettimoodissa ei ole yhteyttä Internetiin, ei uudelleenohjaus rekisteröintisivulle toimi vaan käyttäjä joutuu menemään <{{ book.netti.urls.landing }}>. | korjataan |
 | x   | x     |    | Netti | Nettiyhteysrajauksen ollessa käytössä iPadeilla (ja ehkä myös iPhoneilla) Safari-selain ei toimi oikein. Käytä Chrome-selainta. Ratkaisumahdollisuutta tutkitaan. | tutkitaan |
 |     |       | x  | Netti | Staattisen IP-osoitteen asettaminen Nettiniilon WAN-puolelle. | todo |
 |     |       | x  | Netti | Nettiniilon tarjoaman WLAN-verkon käyttämän kanavan manuaalivalinta | todo |

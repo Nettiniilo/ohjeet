@@ -10,6 +10,8 @@
 	- [Opettajalle](netti/opettajalle.md)
 	- [Opiskelijalle](netti/opiskelijalle.md)
 	- [Tietohallinnolle](netti/tietohallinnolle.md)
+- [Ongelmia ja ratkaisuja](ukk.md)
+- [Nettiniilo-aputyökaluja](aputyokaluja.md)
 - [Kehityslista](kehityslista.md)
 - [Versiohistoria](versiohistoria.md)
 - [Tekniset tiedot](tekniset-tiedot.md)
