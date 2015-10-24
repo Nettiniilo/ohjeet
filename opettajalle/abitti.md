@@ -1,6 +1,11 @@
-# Nettiniilo Abitti-moodissa: opettajille
+# Nettiniilon Abitti-moodi opettajalle
 
-Näiden ohjeiden tavoitteena on selittää opettajan näkökulmasta Nettiniilon käyttämiseen liittyviä yksityiskohtia Nettiniilon Abitti-moodia yhdessa Ylioppilastutkintolautakunnan Abitti-järjestelmän kanssa käytettäessä.
+## Yleistä Abitti-moodista
+
+Nettiniilon Abitti-moodi on tarkoitettu käytettäväksi oppilaitoksen arjessa ja esimerkiksi kurssikokeissa yhdessä Ylioppilastutkintolautakunnan [Abitti-järjestelmän](http://www.abitti.fi/) kanssa.
+
+Nettiniilo toimii "kaapelinkorvaajana" mahdollistaen Abitti-järjestelmää hyödyntävien kurssikokeiden järjestämisen alkuperehdytyksen jälkeen minimaalisella teknisellä tuella, kustannustehokkaasti ja ilman kaapeliviidakoita tai muita "johtotehtäviä".
+
 
 ## Nettiniilon käynnistäminen
 
@@ -10,12 +15,12 @@ Ottaaksesi Nettiniilon käyttöön Abitti-järjestelmän kanssa käytettäväksi
 2. Kytke pyöreäpäinen virtajohto Nettiniiloon.
 3. Kytke virtajohdon toinen pää seinän virtaliittimeen.
 4. Odota, että Nettiniilo käynnistyy.
-	- Laite on valmis käytettäväksi kun laitteen päällä oleva WLAN-valo syttyy.
+	- Laite on valmis käytettäväksi kun laitteen etukannessa oleva WLAN-valo syttyy.
 	- **HUOM!** Ennen 25.8.2015 toimitettujen Nettiniilojen mukana tulleissa ohjeissa kehotetaan odottamaan WPS-valon vilkkumisen päättymistä. Noudata kuitenkin yllä annettua ohjetta.
 5. Varmista, että Nettiniilo on Abitti-moodissa:
-	- Mikäli laitteen päällä oleva WPS-valo palaa, laite on Abitti-moodissa.
+	- Mikäli laitteen päällä oleva WPS-valo palaa, laite on jo Abitti-moodissa.
 	- Mikäli laitteen päällä oleva WPS-valo ei pala:
-		- paina WPS-nappia kerran ja odota
+		- paina WPS-nappia kerran kevyesti (kuulet pienen napsahduksen) ja odota
 		- parin sekunnin sisällä WPS-napin painamisesta nappi alkaa vilkkua
 		- odota noin 10 sekuntia kunnes napin vilkkuminen päättyy
 		- kun WPS-valo jää palamaan, on laite Abitti-moodissa
@@ -53,9 +58,10 @@ Nyt kun olet käynnistänyt Nettiniilon, asettanut sen Abitti-moodiin, käynnist
 
 1. Avaa koetilapalvelimen {{ book.abitti.browser }}-selainohjelmassa uusi välilehti painamalla `Ctrl+T`.
 2. Mene selainikkunassa seuraavaan osoitteeseen: <{{ book.abitti.urls.admin }}>
-3. Nyt sinulle tulisi aueta kaavake, jossa saatetietona on *Nettiniilon hallinta* ja sinua pyydetään syöttämään käyttäjätunnus ja salasana Nettiniilon hallintapaneeliin kirjautuaksesi.
+3. Nyt sinulle pitäisi aueta kaavake, jossa saatetietona lukee *Nettiniilon hallinta* ja sinua pyydetään syöttämään käyttäjätunnus ja salasana Nettiniilon hallintapaneeliin kirjautuaksesi.
 4. Syötä laitteen mukana toimitettuihin ohjeisiin kirjattu käyttäjätunnus ja salasana laitteen.
-	- HUOM! Huomioithan, että salasana voi olla myös muutettu tehdasasetuksista
+	- Huomioithan, että salasana voi olla myös muutettu tehdasasetuksista
+	- Hallintapaneeliin käyttäjätunnus ja salasana eivät muutu Nettiniilon moodia vaihdettaessa
 
 ![Nettiniilon hallintapaneeliin kirjautuminen](http://placehold.it/600x300 "Nettiniilon hallintapaneeliin kirjautuminen")
 
@@ -86,7 +92,7 @@ Nyt kun olet kirjautunut Abitti-palvelimen {{ book.abitti.browser }}-selaimen av
 
 ### Huomioita WLAN-verkon nimen asettamisesta
 
-Opettaja, mikäli vaihdoit WLAN-verkon nimeä edellä ja mikäli opiskelijoilla oli kone jo siinä vaiheessa koneet käynnistettynä Abitti-opiskelijantikuilta, kestää opiskelijankoneilla yleensä noin 10-20 sekuntia tajuta, että Nettiniilon tarjoaman verkon nimi on muuttunut. Tänä aikana opikelijan WLAN-verkkoon liittymisen valikossa saattaa hetkellisesti näkyä sekä vanha että uusi verkon nimi tai ei kumpaakaan.
+Opettaja, mikäli vaihdoit WLAN-verkon nimeä edellä ja mikäli opiskelijoilla oli jo siinä vaiheessa koneet käynnistettynä Abitti-opiskelijantikuilta, kestää opiskelijankoneilla yleensä noin 10-20 sekuntia tajuta, että Nettiniilon tarjoaman verkon nimi on muuttunut. Tänä aikana opikelijan WLAN-verkkoon liittymisen valikossa saattaa hetkellisesti näkyä sekä vanha että uusi verkon nimi tai ei kumpaakaan.
 
 ## Loppusilaus ja sitten on valmista!
 

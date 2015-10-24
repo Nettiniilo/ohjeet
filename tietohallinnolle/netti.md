@@ -18,4 +18,7 @@ Tehdasasetusten palauttaminen tapahtuu seuraavasti:
 * Jos koulun koneilla käytössä proxy- eli välityspalvelin, on se otettava koneelta pois päältä, jotta Nettiniilon Netti-moodia voi käyttää
 
 * Käytettävä IP-osoiteavaruus
+* WiFi Analyzer
+* Monta Nettiniiloa samassa tilassa
+* Monta eri koetta Abitti-moodissa yhdessä Nettiniilolla (kyllä, kunhan Abitti-palvelin tukee)
 -->

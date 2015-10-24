@@ -3,8 +3,12 @@
 	"title": "Nettiniilo-ohjeet",
 	"description": "",
 	"language": "fi",
-	"structure": {
-
+	"structure": {},
+	"plugins": ["collapsible-menu", "toggle-chapters", "printlinks", "quiz"],
+	"pluginsConfig": {
+		"sitemap": {
+			"hostname": "http://ohjeet.nettiniilo.fi"
+		}
 	},
 	"variables": {
 		"abitti": {

@@ -1,6 +1,10 @@
-# Nettiniilo Abitti-moodissa: tietohallinnolle
+# Nettiniilon Abitti-moodi tietohallinnolle
 
-Näiden ohjeiden tavoitteena on selittää TVT-vastaavien ja tietohallinnon näkökulmasta Nettiniilon käyttämiseen liittyviä yksityiskohtia Nettiniilon Abitti-moodia yhdessa Ylioppilastutkintolautakunnan Abitti-järjestelmän kanssa käytettäessä.
+## Yleistä Nettiniilon Abitti-moodista
+
+Nettiniilon Abitti-moodi on tarkoitettu käytettäväksi oppilaitoksen arjessa ja esimerkiksi kurssikokeissa yhdessä YTL:n [Abitti-järjestelmän](http://www.abitti.fi/) kanssa.
+
+Abitti-moodissa Nettiniilo toimii "kaapelinkorvaajana" mahdollistaen Abitti-järjestelmää hyödyntävien kurssikokeiden järjestämisen alkuperehdytyksen jälkeen ilman teknisen tuen tarvetta, kustannustehokkaasti ja ilman kaapeliviidakoita tai muita "johtotehtäviä".
 
 
 ## Abitti-moodissa Nettiniilo toimii kytkimenä
