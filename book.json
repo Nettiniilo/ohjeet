@@ -4,7 +4,7 @@
 	"description": "",
 	"language": "fi",
 	"structure": {},
-	"plugins": ["quiz", "image-captions"],
+	"plugins": ["image-captions"],
 	"pluginsConfig": {
 		"fontSettings": {
 			"theme": "sepia"
