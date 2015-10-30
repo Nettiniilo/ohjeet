@@ -57,6 +57,7 @@ Tulossa...
 
 ## Sallittujen Internet-osoitteiden asettaminen
 
+Tulossa...
 
 ## Opiskelijoiden ohjeistaminen Nettiniilon WLAN-verkkoon liittymiseen
 
