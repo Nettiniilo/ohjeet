@@ -6,6 +6,9 @@
 	"structure": {},
 	"plugins": ["quiz", "image-captions"],
 	"pluginsConfig": {
+		"fontSettings": {
+			"theme": "sepia"
+		},
 		"image-captions": {
 			"caption": "Kuva: _CAPTION_",
 			"align": "left"
