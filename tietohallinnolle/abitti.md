@@ -1,15 +1,15 @@
-# Nettiniilon Abitti-moodi tietohallinnolle
+# Nettiniilon tietohallinnolle: *{{ book.abitti.nicename }}*
 
-## Yleistä Nettiniilon Abitti-moodista
+## Yleistä Nettiniilon *{{ book.abitti.nicename }}*sta
 
-Nettiniilon Abitti-moodi on tarkoitettu käytettäväksi oppilaitoksen arjessa ja esimerkiksi kurssikokeissa yhdessä YTL:n [Abitti-järjestelmän](http://www.abitti.fi/) kanssa.
+Nettiniilon *{{ book.abitti.nicename }}* on tarkoitettu käytettäväksi oppilaitoksen arjessa ja esimerkiksi kurssikokeissa yhdessä YTL:n [Abitti-järjestelmän](http://www.abitti.fi/) kanssa.
 
-Abitti-moodissa Nettiniilo toimii "kaapelinkorvaajana" mahdollistaen Abitti-järjestelmää hyödyntävien kurssikokeiden järjestämisen alkuperehdytyksen jälkeen ilman teknisen tuen tarvetta, kustannustehokkaasti ja ilman kaapeliviidakoita tai muita "johtotehtäviä".
+*{{ book.abitti.nicename }}*ssa Nettiniilo toimii "kaapelinkorvaajana" mahdollistaen Abitti-järjestelmää hyödyntävien kurssikokeiden järjestämisen alkuperehdytyksen jälkeen ilman teknisen tuen tarvetta, kustannustehokkaasti ja ilman kaapeliviidakoita tai muita "johtotehtäviä".
 
 
-## Abitti-moodissa Nettiniilo toimii kytkimenä
+## *{{ book.abitti.nicename }}*ssa Nettiniilo toimii kytkimenä
 
-Olleessaan Abitti-moodissa Nettiniilo toimii ethernet-verkon näkökulmasta kytkimenä (Netti-moodissa reitittimenä). Toisin sanoen, Nettiniilo ei Abitti-moodissa ollessaan toimi DHCP-palvelimena eikä siis jaa IP-osoitteita siihen langattomasti tai ethernet-kaapelilla liitetyille laitteille. Päinvastoin Nettiniilo olettaa Abitti-moodissa, että samassa verkossa on joku DHCP-palvelimen roolia toimittava laite. Abitti-koetilapalvelin on YTL:n toimesta ohjelmoitu toimimaan DHCP-palvelimena.
+Olleessaan *{{ book.abitti.nicename }}*ssa Nettiniilo on ethernet-verkon näkökulmasta kytkin (*{{ book.netti.nicename }}*ssa Nettiniilo on reititin). Toisin sanoen, Nettiniilo ei *{{ book.abitti.nicename }}*ssa ollessaan toimi DHCP-palvelimena eikä siis jaa IP-osoitteita siihen langattomasti tai ethernet-kaapelilla liitetyille laitteille. Päinvastoin Nettiniilo olettaa *{{ book.abitti.nicename }}*ssa, että samassa verkossa on joku DHCP-palvelimen roolia toimittava laite. Abitti-koetilapalvelin on YTL:n toimesta ohjelmoitu toimimaan DHCP-palvelimena.
 
 
 
@@ -36,7 +36,7 @@ Oletusarvoisesti Nettiniiloa käytettäessä kaikki opiskelijat liittyvät Netti
 Hybridiverkon muodostaminen on varteenotettava vaihtoehto esimerkiksi seuraavissa tilanteissa:
 
 - osassa päätelaitteista langaton verkko ei syystä tai toisesta toimi Abitti-opiskelijantikun käyttöjärjestelmää käytettäessä
-- halutaan liittää enemmän päätelaitteita samaan verkkoon kuin Nettiniilo jaksaa langattomasti palvella (Nettiniilon pitäisi pystyä palvelemaan Abitti-moodissa jopa 50-60 opiskelijaa)
+- halutaan liittää enemmän päätelaitteita samaan verkkoon kuin Nettiniilo jaksaa langattomasti palvella (Nettiniilon pitäisi pystyä palvelemaan *{{ book.abitti.nicename }}*ssa jopa 50-60 opiskelijaa)
 
 ### Hybridiverkon muodostaminen
 
@@ -46,7 +46,7 @@ Toimi seuraavasti verkon muodostamiseksi:
 
 1. Käynnistä Nettiniilo kytkemällä siihen virta
 	- odota että WLAN-valo syttyy
-	- varmista, että laite on Abitti-moodissa eli että WPS-valo palaa
+	- varmista, että laite on *{{ book.abitti.nicename }}*ssa eli että WPS-valo palaa
 2. Käynnistä Abitti-koetilapalvelin.
 3. Liitä Nettiniilo PoE LAN -portistaan ethernet-johdolla kytkimeen.
 4. Liitä Abitti-palvelin ethernet-johdolla kytkimeen (ei siis Nettiniiloon).
@@ -66,7 +66,7 @@ Taajuuden/kanavan käsivalinta ei ole tällä hetkellä mahdollista, mutta on tu
 
 ## Suorituskapasiteetti
 
-Nettiniiloa on testattu valmistajan puolesta Abitti-moodissa enimmillään 60 yhtäaikaisesti Nettiniilon langattomaan verkkoon liittyneellä kannettavalla tietokoneella. Testaus suoritettiin Vaskivuoren lukiolla Vantaalla 25.4.2015.
+Nettiniiloa on testattu valmistajan puolesta *{{ book.abitti.nicename }}*ssa enimmillään 60 yhtäaikaisesti Nettiniilon langattomaan verkkoon liittyneellä kannettavalla tietokoneella. Testaus suoritettiin Vaskivuoren lukiolla Vantaalla 25.4.2015.
 
 - Abitti-palvelimena toimi tavallinen pöytäkone
 - 60 Abitti-opiskelijantikuilta käynnistettyä langattomasti liittynyttä konetta

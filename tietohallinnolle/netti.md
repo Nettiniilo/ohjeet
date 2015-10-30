@@ -1,4 +1,4 @@
-# Nettiniilo Netti-moodissa: tietohallinnolle
+# Nettiniilo tietohallinnolle: *{{ book.netti.nicename }}*
 
 Tulossa...
 
@@ -15,10 +15,10 @@ Tehdasasetusten palauttaminen tapahtuu seuraavasti:
 4. Odota, että Nettiniilo käynnistyy nyt uudestaan. Tehdasasetukset ovat palautuneet.
 
 
-* Jos koulun koneilla käytössä proxy- eli välityspalvelin, on se otettava koneelta pois päältä, jotta Nettiniilon Netti-moodia voi käyttää
+* Jos koulun koneilla käytössä proxy- eli välityspalvelin, on se otettava koneelta pois päältä, jotta Nettiniilon *{{ book.netti.nicename }}*a voi käyttää
 
 * Käytettävä IP-osoiteavaruus
 * WiFi Analyzer
 * Monta Nettiniiloa samassa tilassa
-* Monta eri koetta Abitti-moodissa yhdessä Nettiniilolla (kyllä, kunhan Abitti-palvelin tukee)
+* Monta eri koetta *{{ book.abitti.nicename }}*ssa yhdessä Nettiniilolla (kyllä, kunhan Abitti-palvelin tukee)
 -->

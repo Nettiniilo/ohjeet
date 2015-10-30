@@ -1,8 +1,10 @@
-# Nettiniilon käyttöohjeet
+# Nettiniilon käyttöohjeet: tervetuloa!
 
-Tervetuloa Nettiniilo-laitteen dokumentaatioon! Tähän ensimmäiselle sivulle tulee ainakin seuraavia asioita:
+Huomaathan, että ohjeita käyttäessäsi voit
 
-- kuva Nettiniilosta
-- johdantovideo
-- kaaviokuva Abitti-verkosta
-- kaaviokuva Netti-moodia hyödyntävästä verkosta
+- Ohjeita selataan valitsemalla haluttu kohta päävalikosta
+- Tietokoneella voit käyttää nuolinäppäimiä edelliseen ja seuraavaan sisällysluettelon kohtaan siirtyäksesi
+- Tehdä sanahakuja käyttäen suurennuslasi-työkalua
+- Ohjeiden käyttö on sujuvaa myös mobiililaitteilla
+
+![Nettiniilo](http://nettiniilo.fi/img/nettiniilo-laatikossa_jordman.jpg "Nettiniilo paketissaan")

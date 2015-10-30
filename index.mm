@@ -62,7 +62,7 @@
 <node TEXT="Unboxing-video?" ID="ID_896021970" CREATED="1439096526903" MODIFIED="1439096531087"/>
 <node TEXT="Mieti kumpaa moodia haluat k&#xe4;ytt&#xe4;&#xe4;" ID="ID_43201849" CREATED="1439096720655" MODIFIED="1439096734193"/>
 </node>
-<node TEXT="Abitti-moodi" POSITION="right" ID="ID_1900554759" CREATED="1439096405578" MODIFIED="1439096409925">
+<node TEXT="*{{ book.abitti.nicename }}*" POSITION="right" ID="ID_1900554759" CREATED="1439096405578" MODIFIED="1439096409925">
 <edge COLOR="#0000ff"/>
 <node TEXT="Moodin tavoitteet/k&#xe4;ytt&#xf6;tapaus yleisesti" ID="ID_1848983243" CREATED="1442575816360" MODIFIED="1442575828846"/>
 <node TEXT="Opettajalle" ID="ID_378070049" CREATED="1442575242157" MODIFIED="1442575244834">
@@ -93,7 +93,7 @@
 </node>
 <node TEXT="Tietohallinnolle" ID="ID_432419601" CREATED="1442575255697" MODIFIED="1442575261973">
 <node TEXT="Nettiniilon firmwaren p&#xe4;ivitt&#xe4;minen" ID="ID_1198013916" CREATED="1442576449829" MODIFIED="1442576455331"/>
-<node TEXT="Toimii Abitti-moodissa kytkimen&#xe4;" ID="ID_277849644" CREATED="1442575550114" MODIFIED="1442577424895"/>
+<node TEXT="Toimii *{{ book.abitti.nicename }}*ssa kytkimen&#xe4;" ID="ID_277849644" CREATED="1442575550114" MODIFIED="1442577424895"/>
 <node TEXT="Mahdollisuus hybridiverkkoon" ID="ID_1658351744" CREATED="1442575587222" MODIFIED="1442575594444">
 <node TEXT="Abitti-palvelin ja osa opiskelijoista ethernet-kaapelilla" ID="ID_677650104" CREATED="1442575595576" MODIFIED="1442575715641"/>
 <node TEXT="Loput opiskelijat langattomasti" ID="ID_1832674300" CREATED="1442575617747" MODIFIED="1442575638439"/>

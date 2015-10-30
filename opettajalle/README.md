@@ -1,9 +1,9 @@
-# Nettiniilon käyttö opettajalle
+# Nettiniilo opettajalle: yleistä
 
 Tämä osio käsittelee Nettiniilon käyttämistä opettajan näkökulmasta. Opettajalle Nettiniilo mahdollistaa:
 
-1. YTL:n Abitti-järjestelmää hyödyntävien kurssikokeiden järjestämisen pienellä vaivalla (Abitti-moodi)
-2. opiskelijoille tarjottavan Internet-yhteyden rajaamisen esimerkiksi vain haluttuun sähköiseen oppimisympäristöön (Nettimoodi)
+1. YTL:n Abitti-järjestelmää hyödyntävien kurssikokeiden järjestämisen pienellä vaivalla (*{{ book.abitti.nicename }}*)
+2. opiskelijoille tarjottavan Internet-yhteyden rajaamisen esimerkiksi vain haluttuun sähköiseen oppimisympäristöön (*{{ book.netti.nicename }}*)
 3. aineiston jakamisen opiskelijoille Nettiniiloon liitetyltä muistitikulta
-	- käytettävissä sekä Abitti- että Nettimoodissa
+	- käytettävissä sekä Abitti- että *{{ book.netti.nicename }}*ssa
 	- voidaan käyttää myös pelkkään tiedostojen jakamiseen opiskelijoille

@@ -4,14 +4,16 @@
 	"description": "",
 	"language": "fi",
 	"structure": {},
-	"plugins": ["collapsible-menu", "toggle-chapters", "printlinks", "quiz"],
+	"plugins": ["quiz", "image-captions"],
 	"pluginsConfig": {
-		"sitemap": {
-			"hostname": "http://ohjeet.nettiniilo.fi"
+		"image-captions": {
+			"caption": "Kuva: _CAPTION_",
+			"align": "left"
 		}
 	},
 	"variables": {
 		"abitti": {
+			"nicename": "Abitti-moodi",
 			"urls": {
 				"admin":  "http://10.10.0.10",
 				"share":  "http://10.10.0.10:443",
@@ -20,12 +22,17 @@
 			"browser": "Iceweasel"
 		},
 		"netti": {
+			"nicename": "Nettimoodi",
 			"urls": {
 				"admin":    "http://192.168.1.1:8020",
 				"register": "http://192.168.1.1:8080",
 				"landing":  "http://192.168.1.1",
 				"share":    "http://192.168.1.1:8888"
 			}
+		},
+		"conformity": {
+			"issuer": "Tmi Fredea (Y-tunnus: 2448738-6)",
+			"declaration": "https://nettiniilo.fi/complience"
 		}
 	}
 }

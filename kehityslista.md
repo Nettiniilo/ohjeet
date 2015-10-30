@@ -10,12 +10,12 @@ Seuraavat asiat ovat joko tehtävälistalla tai niiden toteuttamisen mahdollisuu
 |:---:|:-----:|:--:|-------|------------------|---------|
 | x   | x     |    | Abitti, Netti| Tiedostoja opiskelijoille jaettaessa tiedostonimet eivät saa tällä hetkellä sisältää ääkkösiä eivätkä lainausmerkkejä. Ääkkösten mahdollistaminen on tarpeen. | korjataan |
 | x   | x     |    | Netti | Opiskelijoiden on liityttävä Nettiniilon tarjoamaan langattomaan verkkoon noin yksi opiskelija per 1-2 sekuntia. | parannetaan |
-| x   | x     |    | Netti | Jos Nettimoodissa ei ole yhteyttä Internetiin, ei uudelleenohjaus rekisteröintisivulle toimi vaan käyttäjä joutuu menemään <{{ book.netti.urls.landing }}>. | korjataan |
+| x   | x     |    | Netti | Jos *{{ book.netti.nicename }}*ssa ei ole yhteyttä Internetiin, ei uudelleenohjaus rekisteröintisivulle toimi vaan käyttäjä joutuu menemään <{{ book.netti.urls.landing }}>. | korjataan |
 | x   | x     |    | Netti | Nettiyhteysrajauksen ollessa käytössä iPadeilla (ja ehkä myös iPhoneilla) Safari-selain ei toimi oikein. Käytä Chrome-selainta. Ratkaisumahdollisuutta tutkitaan. | tutkitaan |
 |     |       | x  | Netti | Staattisen IP-osoitteen asettaminen Nettiniilon WAN-puolelle. | todo |
 |     |       | x  | Netti | Nettiniilon tarjoaman WLAN-verkon käyttämän kanavan manuaalivalinta | todo |
 |     |       | x  | Netti | WAN-puolelle mahdollisuus asettaa http-proxy-palvelin. | tutkitaan |
-| x   | x     | x  | Abitti| Nettiyhteys Abitti-moodissa Nettiniilon tarjoaman proxy-palvelimen kautta. | tutkitaan |
+| x   | x     | x  | Abitti| Nettiyhteys *{{ book.abitti.nicename }}*ssa Nettiniilon tarjoaman proxy-palvelimen kautta. | tutkitaan |
 
 
 ## Ei korjata
@@ -32,6 +32,6 @@ Tässä tiedossa olevia ongelmakohtia, joita ei ole aietta korjata tai joiden ko
 
 ### Huomioita puutteisiin, joita ei korjata
 
-1. Salaamattomissa yhteyksissä (`http://`) alasivukohtainen rajaus olisi teknisesti mahdollista. Tulevaisuudessa kuitenkin verkkopalvelut tulevat kuitenkin (osaltaan HTTP/2-protokollan yleistymisen myötä) enenevässä määrin käyttämään salattuja yhteyksiä (`https://`). Salatuissa yhteyksissä alasivukohtaisen rajauksen toteuttaminen vaatisi HTTPS-sertifikaatin terminoinnin, joka on eettisesti kyseenalaista ja ilman sertifikaattivaroituksen näyttämistä teknisesti mahdotonta ilman järjestelmätason oikeuksia kaikkiin verkkoa käyttäviin päätelaitteisiin. Tästä syystä Nettiniilon osoiterajausta ei voi tehdä yksittäisen alasivun tasolla nyt eikä tulevaisuudessa.
+1. Salaamattomissa yhteyksissä (`http://`) alasivukohtainen rajaus olisi teknisesti mahdollista. Tulevaisuudessa kuitenkin verkkopalvelut tulevat kuitenkin (osaltaan HTTP/2-protokollan yleistymisen myötä) enenevässä määrin käyttämään salattuja yhteyksiä (`https://`). Salatuissa yhteyksissä alasivukohtaisen rajauksen toteuttaminen vaatisi HTTPS-sertifikaatin terminoinnin, joka on eettisesti kyseenalaista ja ilman sertifikaattivaroituksen näyttämistä tai *https to http downgrade* -toimenpidettä teknisesti mahdotonta ilman järjestelmätason oikeuksia kaikkiin verkkoa käyttäviin päätelaitteisiin. Tästä syystä Nettiniilon osoiterajausta ei voi tehdä yksittäisen alasivun tasolla nyt eikä tulevaisuudessa.
 
 2. Nettiniilon tarjoaman virheilmoituksen näyttäminen edellyttäisi HTTPS-sertifikaattivaroituksen näyttämistä käyttäjälle kuten edellä. Yksi mahdollisuus olisi näyttää käyttäjälle sertifikaattivaroitus, mutta vastaavasssa tilanteessa esimerkiksi lentokenttien langattomat verkot eivät näytä varoitusta vaan yksinkertaisesti katkaisevat yhteysyrityksen. Nettiniilon suhteen on päätetty toimia samoin.

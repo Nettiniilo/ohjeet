@@ -1,6 +1,6 @@
-# Nettiniilo Abitti-moodissa: opiskelijalle
+# Nettiniilo opiskelijalle: *{{ book.abitti.nicename }}*
 
-Näiden ohjeiden tavoitteena on selittää opiskelijan näkökulmasta Nettiniilon käyttämiseen liittyviä yksityiskohtia Nettiniilon Abitti-moodia yhdessa Ylioppilastutkintolautakunnan Abitti-järjestelmän kanssa käytettäessä.
+Näiden ohjeiden tavoitteena on selittää opiskelijan näkökulmasta Nettiniilon käyttämiseen liittyviä yksityiskohtia Nettiniilon *{{ book.abitti.nicename }}*a yhdessa Ylioppilastutkintolautakunnan Abitti-järjestelmän kanssa käytettäessä.
 
 Toisaalta nämä ohjeet on tarkoitettu myös opettajille, jotta opettajat voivat ohjeistaa opiskelijoitaan eikä opiskelijoiden välttämättä tarvitse lukea näitä ohjeita itse. 
 

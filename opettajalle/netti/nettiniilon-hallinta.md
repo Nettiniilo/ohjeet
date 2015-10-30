@@ -1,54 +1,8 @@
-# Nettiniilon Nettimoodi opettajalle
+# Nettiniilon hallinta (*{{ book.netti.nicename }}*)
 
-## Yleistä Nettimoodista
+## Hallintapaneeliin kirjautuminen
 
-Nettimoodi on tarkoitettu käytettäväksi silloin, kun halutaan käyttää opiskelijoiden omia päätelaitteita ilman YTL:n Abitti-järjestelmää. Nettiniilon nettimoodi mahdollistaa seuraavia asioita:
-
-1. Mikäli Nettiniiloon on kytketty Internet-yhteys, on opettajalla mahdollisuus rajata yhteyttä oppituntikohtaisesti ja näin sallia pääsy vain haluttuihin verkkopalveluihin.
-2. Opettaja näkee Nettiniilon tarjoamaan langattomaan verkkoon liittyneiden opiskelijoiden nimet.
-3. Opettaja näkee verkossa käyneet, mutta siitä poistuneet opiskelijat.
-4. Opettaja näkee verkossa käyneet, poistuneet ja takaisin tulleet opiskelijat.
-5. Opettaja voi jakaa tiedostoja opiskelijoille Nettiniilon USB-porttiin liitetyltä muistitikulta.
-
-
-## Nettiniilon käynnistäminen
-
-Ottaaksesi Nettiniilon käyttöön nettimoodissa, toimi seuraavasti:
-
-1. Irrota Nettiniilosta kaikki johdot.
-2. Kytke pyöreäpäinen virtajohto Nettiniiloon.
-3. Kytke virtajohdon toinen pää seinän virtaliittimeen.
-4. Odota, että Nettiniilo käynnistyy.
-	- Laite on valmis käytettäväksi kun laitteen etukannessa oleva WLAN-valo syttyy.
-	- **HUOM!** Ennen 25.8.2015 toimitettujen Nettiniilojen mukana tulleissa ohjeissa kehotetaan odottamaan WPS-valon vilkkumisen päättymistä. Noudata kuitenkin yllä annettua ohjetta.
-5. Varmista, että Nettiniilo on nettimoodissa:
-	- Mikäli laitteen päällä oleva WPS-valo ei pala WLAN-valon sytyttyä, laite on jo nettimoodissa.
-	- Mikäli laitteen päällä oleva WPS-valo palaa:
-		- paina WPS-nappia kerran kevyesti (kuulet pienen napsahduksen) ja odota
-		- parin sekunnin sisällä WPS-napin painamisesta nappi alkaa vilkkua
-		- odota noin 10 sekuntia kunnes napin vilkkuminen päättyy
-		- kun WPS-valo jää pois päältä, on laite nettimoodissa
-6. Jatka ohjeiden seuraavaan vaiheeseen.
-
-![Kuva tai video Nettiniilon käynnistämisestä](http://placehold.it/600x300 "Kuva tai video Nettiniilon käynnistämisestä")
-
-
-## Yhteys Nettiniilon ja opettajan koneen välille
-
-Kun olet käynnistänyt Nettiniilon, toimi seuraavasti liittääksesi käyttämäsi koneen Nettiniiloon sen hallinnointia varten:
-
-1. Varmista, että olet käynnistänyt Nettiniilon ja että se on nettimoodissa.
-4. Käynnistä oma koneesi ja kytke ethernet-johto koneesi ethernet-portista Nettiniilon PoE LAN -porttiin.
-5. Jatka ohjeiden seuraavaan vaiheeseen.
-
-### Verkkokaavio
-
-![Verkkokaavio](http://placehold.it/600x300 "Verkkokaavio")
-
-
-## Nettiniilon hallintapaneeliin kirjautuminen nettimoodissa
-
-Nyt kun olet käynnistänyt Nettiniilon, asettanut sen nettimoodiin ja liittänyt koneesi ethernet-johdolla Nettiniilon PoE LAN -porttiin, voit jatkaa seuraavaan vaiheeseen eli kirjautua sisään Nettiniilon hallintapaneeliin:
+Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.netti.nicename }}*in ja liittänyt koneesi ethernet-johdolla Nettiniilon PoE LAN -porttiin, voit jatkaa seuraavaan vaiheeseen eli kirjautua sisään Nettiniilon hallintapaneeliin:
 
 1. Avaa Chrome- tai Firefox-selaimella uusi välilehti painamalla `Ctrl+T` (Apple: `Command+T`)
 2. Mene selainikkunassa seuraavaan osoitteeseen: <{{ book.netti.urls.admin }}>
@@ -57,7 +11,7 @@ Nyt kun olet käynnistänyt Nettiniilon, asettanut sen nettimoodiin ja liittäny
 	- Huomioithan, että salasana voi olla myös muutettu tehdasasetuksista
 	- Hallintapaneeliin käyttäjätunnus ja salasana eivät muutu Nettiniilon moodia vaihdettaessa
 
-![Nettiniilon hallintapaneeliin kirjautuminen](http://placehold.it/600x300 "Nettiniilon hallintapaneeliin kirjautuminen")
+![Nettiniilon hallintapaneeliin kirjautuminen](http://placehold.it/600x300 "Nettiniilon hallintapaneeliin kirjautuminen (tulossa)")
 
 ### Huomioita hallintapaneeliin kirjautumisesta
 
@@ -77,20 +31,29 @@ Nyt kun olet kirjautunut Nettiniilon hallintapaneeliin, toimi seuraavasti:
 	- haluat muuttaa asetuksia, kirjoita kenttiin haluamasi tiedot ja paina *Tallenna*-nappia.
 	- haluat tehdä rajauksia Internet-yhteyteen ennenkuin opiskelijat liittyvät verkkoon, älä kerro WLAN-verkon salasanaa opiskelijoille vielä.
 
-![WLAN-verkon nimi ja salasana](http://placehold.it/600x300 "WLAN-verkon nimi ja salasana")
+![WLAN-verkon nimi ja salasana](http://placehold.it/600x300 "WLAN-verkon nimi ja salasana (tulossa)")
 
 ### Huomioita WLAN-verkon nimen asettamisesta
 
 Opettaja, mikäli vaihdoit WLAN-verkon nimeä edellä ja mikäli opiskelijoilla oli jo siinä vaiheessa koneet käynnistettynä, kestää opiskelijankoneilla yleensä noin 10-20 sekuntia tajuta, että Nettiniilon tarjoaman verkon nimi on muuttunut. Tänä aikana opikelijan WLAN-verkkoon liittymisen valikossa saattaa hetkellisesti näkyä sekä vanha että uusi verkon nimi tai ei kumpaakaan.
 
-
-
 ## Internet-yhteyden muodostaminen Nettiniilosta
+
+Nettiniilo on mahdollista yhdistää Internetiin joko ethenet-kaapelilla tai 3G/4G-yhteydellä mokkulan kautta. Tämän jälkeen on mahdollista tarjota opiskelijoille Internet-yhteys Nettiniilon WLAN-verkon kautta. Tällöin opettajalle tarjoutuu mahdollisuus a) rajata niitä sivustoja, joihin opiskelijoilla on pääsy ja b) jakaa opiskelijoille oheisaineistoja Nettiniilon kautta.
 
 ### Internet-yhteys ethernet-kaapelilla koulun seinään
 
+VAROITUS: Mikäli Internet-yhteys halutaan muodostaa liittämällä Nettiniilo oppilaitoksen olemassaolevaan tietoverkkoon (ethernet-kaapelilla seinään), täytyy tähän ehdottomasti olla *rehtorin/tietohallinnon lupa*!
+
+Kun olet saanut luvan liittää Nettiniilon oppilaitoksenne Internet-yhteyteen (seinäliittimeen) ethernet-kaapelilla, toimi seuraavasti:
+
+1. Varmista, että Nettiniilo on käynnistetty ja *{{ book.netti.nicename }}*ssa.
+2. Yhdistä ethernet-kaapeli Nettiniilon *WAN/LAN-portista* todennäköisimmin seinässä olevaan ethernet-pistokeeseen.
+	- VAROITUS: Älä kytke ethernet-johtoa Nettiniilon *PoE LAN -portista* seinään!
+
 ### Internet-yhteys mokkulan kautta
 
+Tulossa...
 
 ## Sallittujen Internet-osoitteiden asettaminen
 
@@ -111,6 +74,6 @@ Ohjeista opiskelijoita seuraavasti:
 	- Mikäli Nettiniilosta on Internet-yhteys eteenpäin, on opiskelijoilla nyt pääsy Internetiin.
 
 <!--
-* Jos koulun koneilla käytössä proxy- eli välityspalvelin, on se otettava koneelta pois päältä, jotta Nettiniilon Netti-moodia voi käyttää
+* Jos koulun koneilla käytössä proxy- eli välityspalvelin, on se otettava koneelta pois päältä, jotta Nettiniilon *{{ book.netti.nicename }}*a voi käyttää
 * Ohjeista hallintapaneeliin meno aina <{{ book.netti.urls.admin }}>, ei http://nettiniilo.lan
 -->

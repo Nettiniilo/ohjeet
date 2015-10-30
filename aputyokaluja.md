@@ -1,4 +1,4 @@
 # Nettiniilo-aputyökaluja
 
-- bookmarklet Nettimoodissa hallintapaneeliin menemiseksi
-- bookmarklet Nettimoodissa materiaalinjakoon menemiseksi
+- bookmarklet *{{ book.netti.nicename }}*ssa hallintapaneeliin menemiseksi
+- bookmarklet *{{ book.netti.nicename }}*ssa materiaalinjakoon menemiseksi
