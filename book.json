@@ -4,7 +4,7 @@
 	"description": "",
 	"language": "fi",
 	"structure": {},
-	"plugins": ["image-captions"],
+	"plugins": ["image-captions", "mobile-hide-menu"],
 	"pluginsConfig": {
 		"fontSettings": {
 			"theme": "sepia"
