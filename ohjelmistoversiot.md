@@ -22,6 +22,16 @@ Ennen versiota 1.0.0 Nettiniilon ohjelmistoversiot numeroitiin päivämäärän 
 Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on alimpana kunkin version yhteydessä on listattu ne ominaisuudet, jotka ovat käyttäjän näkökulmasta muuttuneet jollain tavalla.
 
 <dl>
+<dt>v1.0.1 (5.11.2015)</dt>
+<dd>
+	<ul>
+		<li>Nettimoodissa verkkoon nimellä rekisteröidyttäessä rekisteröintinapin teksti muutettu muodosta <em>Käytä nettiä</em> muotoon <em>Rekisteröidy</em></li>
+		<li>Varmistus ettei nettimoodin osoiterajaus jää päälle Nettiniilon uudelleenkäynnistyksen yhteydessä.</li>
+		<li>Nettiniilon hallintapaneelin yksiriviset tietokentät näyttävät epäkelvot (esim. liian lyhyet) syötearvot punaisella.</li>
+		<li>Pyritään estämään selainta tallettamasta hallintapaneelin HTML-koodia omaan välimuistiinsa. Tällä on merkitystä lähinnä Nettiniilon ohjelmistoa päivitettäessä niin, että vanha versionumero jää pienemmällä todennäköisyydellä näkyviin hallintapaneelin alareunaan päivityksen jälkeen v1.0.1 eteenpäin päivitettäessä.</li>
+		<li>Hallintapaneelin etusivun Nettiniilo-logo pienemmäksi.</li>
+	</ul>
+</dd>
 <dt>v1.0.0 (25.8.2015)</dt>
 <dd>
 	<ul>
