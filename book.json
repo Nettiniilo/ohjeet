@@ -1,13 +1,19 @@
 {
-	"gitbook": ">=2.0.0",
+	"gitbook": "2.4.x",
 	"title": "Nettiniilo-ohjeet",
 	"description": "",
 	"language": "fi",
 	"structure": {},
-	"plugins": ["image-captions", "mobile-hide-menu"],
+	"plugins": ["disqus", "ga", "image-captions", "mobile-hide-menu"],
 	"pluginsConfig": {
 		"fontSettings": {
 			"theme": "sepia"
+		},
+		"disqus": {
+			"shortName": "nettiniilo-ohjeet"
+		},
+		"ga": {
+			"token": "UA-374160-20"
 		},
 		"image-captions": {
 			"caption": "Kuva: _CAPTION_",
