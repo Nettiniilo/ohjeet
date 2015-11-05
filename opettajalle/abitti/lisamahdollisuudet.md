@@ -21,6 +21,7 @@ Nettiniilo tarjoaa opettajalle mahdollisuuden jakaa oheisaineistoja opiskelijoid
 
 Huomaathan, että oheisaineistojen eri tiedostotyyppien avautuvuus suoraan selaimessa ja toisaalta toimivuus ylipäätään Abitti-opiskelijankoneilla on kiinni Ylioppilastutkintolautakunnan Abitti-opiskelijantikuille sisällyttämistä ohjelmista ja niiden asetuksista.
 
+
 ### Tiedostojen jakaminen opiskelijoille
 
 Tiedostoja jaetaan opiskelijoille tallentamalla jaettavaksi halutut tiedostot omalla tietokoneella tavalliselle muistitikulle ja liittämällä tämän jälkeen kyseinen muistitikku Nettiniilon USB-porttiin.
@@ -36,6 +37,7 @@ Huomaa, että tiedostoja opiskelijoille Nettiniilon kautta jaettaessa älä käy
 
 
 <!--
+
 ## Tiedostojen palautus
 
 Nettiniilon ohjelmistopäivityksen version 1.1 myötä opiskelijat voivat myös palauttaa tiedostoja opettajalle menemällä Abitti-järjestelmäään käynnistetyllä selaimellaan tiedostojenpalautuksen osoitteeseen: <{{ book.abitti.urls.upload }}>
@@ -45,4 +47,5 @@ Näin ollen Abitti-kokeissa on mahdollista toteuttaa laajempia kysymystyyppejä 
 ### Tiedostojenpalautukseen ei pääsyä koetilapalvelimelta
 
 Huomaa, että opettajan koetilapalvelimelta ei ole koetilapalvelimen palomuuriasetuksista johtuen pääsyä tiedostojenpalautuksen mukaiseen osoitteeseen (<{{ book.abitti.urls.upload }}>) vaikka opiskelijoiden Abitti-järjestelmään käynnistetyiltä koneilta kyseiseen osoitteseen onkin pääsy.
+
 -->

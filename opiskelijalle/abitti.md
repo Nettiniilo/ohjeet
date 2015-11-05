@@ -71,6 +71,7 @@ Ladatttavia ja sen jälkeen erikseen avattavia tiedostotyyppejä ovat mm. seuraa
 - GeoGebra-tiedostot (.ggb)
 - Kuvatiedostomuodot, joita ei listattu aiemmin selaimessa aukeavien tiedostojen joukossa
 
+<!--
 
 ## Tiedostopalautuksen käyttäminen
 
@@ -79,3 +80,5 @@ Ohjelmistoversiosta 1.1 alkaen Nettiniilo mahdollistaa tiedostojen palauttamisen
 1. Avaa selaimessasi uusi ikkuna (`Ctrl+N`) tai uusi välilehti (`Ctrl+T`).
 2. Kirjoita selainikkunan osoiteriville: <{{ book.abitti.urls.upload }}> ja paina *Enter*.
 3. Rekisteröidyttyäsi tiedostopalautukseen nimelläsi voit lähettää tiedostoja opettajallesi.
+
+-->
