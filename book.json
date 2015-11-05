@@ -4,7 +4,15 @@
 	"description": "",
 	"language": "fi",
 	"structure": {},
-	"plugins": ["disqus", "ga", "image-captions", "mobile-hide-menu"],
+	"links": {
+		"sidebar": {
+			"TILAA NETTINIILO": "http://nettiniilo.fi/"
+		},
+		"sharing": {
+			"weibo": null
+		}
+	},
+	"plugins": ["anchors", "disqus", "ga", "image-captions", "mobile-hide-menu"],
 	"pluginsConfig": {
 		"fontSettings": {
 			"theme": "sepia"
