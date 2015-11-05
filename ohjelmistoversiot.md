@@ -25,7 +25,13 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 <dt>v1.0.1 (5.11.2015)</dt>
 <dd>
 	<ul>
-		<li>Nettimoodissa verkkoon nimellä rekisteröidyttäessä rekisteröintinapin teksti muutettu muodosta <em>Käytä nettiä</em> muotoon <em>Rekisteröidy</em></li>
+		<li><em>HUOM! Tätä päivitystä ei tarvitse asentaa mikäli</em>
+			<ul>
+				<li>käytätte Nettiniiloa vain Abitti-moodissa tai</li>
+				<li>ette ole huomanneet nettimoodin osoiterajauksissa ongelmaa, jossa hallintapaneelin mukaan domain-rajauksia ei ole päällä, mutta käytännössä vaikuttaisi siltä, että osoiterajauksia on päällä.</li>
+			</ul>
+		</li>
+		<li>Nettimoodissa verkkoon nimellä rekisteröidyttäessä rekisteröintinapin teksti muutettu muodosta <em>Käytä nettiä</em> muotoon <em>Rekisteröidy</em>.</li>
 		<li>Varmistus ettei nettimoodin osoiterajaus jää päälle Nettiniilon uudelleenkäynnistyksen yhteydessä.</li>
 		<li>Nettiniilon hallintapaneelin yksiriviset tietokentät näyttävät epäkelvot (esim. liian lyhyet) syötearvot punaisella.</li>
 		<li>Pyritään estämään selainta tallettamasta hallintapaneelin HTML-koodia omaan välimuistiinsa. Tällä on merkitystä lähinnä Nettiniilon ohjelmistoa päivitettäessä niin, että vanha versionumero jää pienemmällä todennäköisyydellä näkyviin hallintapaneelin alareunaan päivityksen jälkeen v1.0.1 eteenpäin päivitettäessä.</li>
