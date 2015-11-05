@@ -10,7 +10,7 @@ Versiosta 1.0.0 alkaen Nettiniilon ohjelmiston versionumerointi noudattaa [Seman
 - *MINOR*-numeron muuttuessa päivitys tuo mukaan uusia toiminnallisuuksia muttei oleellisesti muuta ennestään tuttua erilaiseksi. *MINOR*-numeron muutos saattaa sisältää myös *PATCH*-tyyppisiä muutoksia.
 - *PATCH*-numeron muuttuessa päivitys korjaa mahdollisia virheitä tai parantaa laitteen tietoturvaa tms. muttei tuo uusia ominaisuuksia.
 
-Mahdolliset *PATCH*-päivitykset on erittäin suositeltavaa asentaa mahdollisimman pian; *MINOR*- ja *MAJOR*-päivityksillä ei ole niinkään kiire mikäli hinku saada uusia ominaisuuksia käyttöön ei ole kova.
+Mahdolliset *PATCH*-päivitykset on erittäin suositeltavaa asentaa mahdollisimman pian ellei ko. version yhteydessä alla erikseen muuta mainita; *MINOR*- ja *MAJOR*-päivityksillä ei ole niinkään kiire mikäli hinku saada uusia ominaisuuksia käyttöön ei ole kova.
 
 ### Beta-versiot ennen versiota 1.0.0
 
