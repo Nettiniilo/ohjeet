@@ -9,6 +9,7 @@ Seuraavat asiat ovat joko tehtävälistalla tai niiden toteuttamisen mahdollisuu
 |Opet | Opisk | IT | Moodi | Kuvaus           | Status  |
 |:---:|:-----:|:--:|-------|------------------|---------|
 | x   | x     |    | Abitti, Netti| Tiedostoja opiskelijoille jaettaessa tiedostonimet eivät saa tällä hetkellä sisältää ääkkösiä eivätkä lainausmerkkejä. Ääkkösten mahdollistaminen on tarpeen. | korjataan |
+| x   | x     |    | Abitti, Netti| Nettiniilon materiaalinjaon kautta jaettujen video- ja äänitiedostojen kelaaminen ei onnistu. | korjataan |
 | x   | x     |    | Netti | Opiskelijoiden on liityttävä Nettiniilon tarjoamaan langattomaan verkkoon noin yksi opiskelija per 1-2 sekuntia. | parannetaan |
 | x   | x     |    | Netti | Jos *{{ book.netti.nicename }}*ssa ei ole yhteyttä Internetiin, ei uudelleenohjaus rekisteröintisivulle toimi vaan käyttäjä joutuu menemään <{{ book.netti.urls.landing }}>. | korjataan |
 | x   | x     |    | Netti | Nettiyhteysrajauksen ollessa käytössä iPadeilla (ja ehkä myös iPhoneilla) Safari-selain ei toimi oikein. Käytä Chrome-selainta. Ratkaisumahdollisuutta tutkitaan. | tutkitaan |
@@ -30,7 +31,7 @@ Tässä tiedossa olevia ongelmakohtia, joita ei ole aietta korjata tai joiden ko
 | x   |       |    | Netti | Osoiterajaukset voi tehdä vain domain-tasolla, ts. kun esimerkiksi osoite `http://joku.domain.fi` on sallittuna niin kaikki muotoa `http://joku.domain.fi/....` olevat osoitteet ovat sallittuja.<sup>1</sup> |
 | x   | x     |    | Netti | Jos nettiyhteyden rajaus on päällä ja opiskelija yrittää mennä verkkopalveluun, joka ei ole sallittujen joukossa ja ko. verkkopalvelu käyttää HTTPS-protokollaa, ei käyttäjälle näytetä Nettiniilon pääsynestoilmoitusta.<sup>2</sup> |
 
-### Huomioita puutteisiin, joita ei korjata
+### Huomioita kohtiin, joita ei korjata
 
 1. Salaamattomissa yhteyksissä (`http://`) alasivukohtainen rajaus olisi teknisesti mahdollista. Tulevaisuudessa kuitenkin verkkopalvelut tulevat kuitenkin (osaltaan HTTP/2-protokollan yleistymisen myötä) enenevässä määrin käyttämään salattuja yhteyksiä (`https://`). Salatuissa yhteyksissä alasivukohtaisen rajauksen toteuttaminen vaatisi HTTPS-sertifikaatin terminoinnin, joka on eettisesti kyseenalaista ja ilman sertifikaattivaroituksen näyttämistä tai *https to http downgrade* -toimenpidettä teknisesti mahdotonta ilman järjestelmätason oikeuksia kaikkiin verkkoa käyttäviin päätelaitteisiin. Tästä syystä Nettiniilon osoiterajausta ei voi tehdä yksittäisen alasivun tasolla nyt eikä tulevaisuudessa.
 
