@@ -17,7 +17,7 @@
 	- [{{ book.abitti.nicename }} tietohallinnolle](tietohallinnolle/abitti.md)
 	- [{{ book.netti.nicename }} tietohallinnolle](tietohallinnolle/netti.md)
 - [Ongelmia ja ratkaisuja](usein-kysyttya.md)
-- [Nettiniilo-aputyökaluja](aputyokaluja.md)
 - [Kehityslista](kehityslista.md)
 - [Ohjelmistoversiot](ohjelmistoversiot.md)
 - [Tekniset tiedot](tekniset-tiedot.md)
+- [Nettiniilo-aputyökaluja](aputyokaluja.md)
