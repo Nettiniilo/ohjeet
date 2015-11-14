@@ -20,4 +20,5 @@
 - [Kehityslista](kehityslista.md)
 - [Ohjelmistoversiot](ohjelmistoversiot.md)
 - [Tekniset tiedot](tekniset-tiedot.md)
+- [Ohjeiden muutoshistoria](ohjeiden-muutoshistoria.md)
 - [Nettiniilo-aputyökaluja](aputyokaluja.md)
