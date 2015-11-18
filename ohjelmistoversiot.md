@@ -6,11 +6,19 @@
 
 Versiosta 1.0.0 alkaen Nettiniilon ohjelmiston versionumerointi noudattaa [Semantic Versioning](http://semver.org/) -periaatteita. Versionumero on siis muotoa *MAJOR*.*MINOR*.*PATCH*, missä:
 
-- *MAJOR*-numeron muuttuessa päivitys aiheuttaa aiemman käytön näkökulmasta epäyhteensopivia muutoksia, ts. ainakin yksi käyttäjän tuntema toiminto on todennäköisimmin muuttunut aiempaan käyttöön nähden epäyhteensopivasti ja käyttäjä joutuu opettelemaan tekemään tutun asian uudella tavalla.
-- *MINOR*-numeron muuttuessa päivitys tuo mukaan uusia toiminnallisuuksia muttei oleellisesti muuta ennestään tuttua erilaiseksi. *MINOR*-numeron muutos saattaa sisältää myös *PATCH*-tyyppisiä muutoksia.
-- *PATCH*-numeron muuttuessa päivitys korjaa mahdollisia virheitä tai parantaa laitteen tietoturvaa tms. muttei tuo uusia ominaisuuksia.
+- *MAJOR*-numeron muuttuessa päivitys aiheuttaa aiemman käytön näkökulmasta epäyhteensopivia muutoksia, ts. käyttäjä joutuu opettelemaan tekemään ainakin yhden ennestään tutun asian uudella tavalla. *MAJOR*-version muutos voi myös tuoda Nettiniiloon uusia ominaisuuksia tai sisältää *PATCH*-tyyppisiä toiminnallisuus- tai tietoturvakorjauksia.
+- *MINOR*-numeron muuttuessa päivitys tuo mukaan uusia toiminnallisuuksia muttei oleellisesti muuta ennestään tuttuja ominaisuuksia käyttäjän näkökulmasta. *MINOR*-numeron muutos saattaa sisältää myös *PATCH*-tyyppisiä muutoksia.
+- *PATCH*-numeron muuttuessa päivitys korjaa mahdollisia ohjelmistovirheitä tai parantaa laitteen tietoturvaa tms. muttei tuo uusia ominaisuuksia eikä oleellisesti muuta ennestään käytössä olleiden ominaisuuksien käyttötapaa.
 
-Mahdolliset *PATCH*-päivitykset on erittäin suositeltavaa asentaa mahdollisimman pian ellei ko. version yhteydessä alla erikseen muuta mainita; *MINOR*- ja *MAJOR*-päivityksillä ei ole niinkään kiire mikäli hinku saada uusia ominaisuuksia käyttöön ei ole kova.
+
+#### Versiopäivitysten kiireellisyys
+
+Tässä pähkinänkuoressa tieto siitä missä tilanteessa tietyn ohjelmistopäivityksen asentaminen Nettiniiloon on tarpeellista:
+
+- ***MAJOR*-version muutos:** päivittämistarve ei kiireellinen ellei toisin mainita.
+- ***MINOR*-version muutos:** päivittämistarve ei kiireellinen ellei toisin mainita.
+- ***PATCH*-version muutos:** päivittäminen suositeltavaa mahdollisimman pian ellei toisin mainita.
+
 
 ### Beta-versiot ennen versiota 1.0.0
 
