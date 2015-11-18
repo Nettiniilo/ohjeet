@@ -5,4 +5,4 @@
 - WLAN-antenni
 - 1m ja 2m ethernet-kaapelit
 
-![Kuva paketin sisällöstä](/tiedostot/kuvat/nettiniilo-paketin-sisalto.jpg "Nettiniilo-paketin sisältö")
+![Kuva paketin sisällöstä](/files/images/nettiniilo-paketin-sisalto.jpg "Nettiniilo-paketin sisältö")
