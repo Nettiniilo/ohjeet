@@ -5,4 +5,4 @@
 - WLAN-antenni
 - 1m ja 2m ethernet-kaapelit
 
-![Kuva paketin sisällöstä](http://placehold.it/600x300 "Nettiniilo-paketin sisältö")
+![Kuva paketin sisällöstä](/tiedostot/kuvat/nettiniilo-paketin-sisalto.jpg "Nettiniilo-paketin sisältö")
