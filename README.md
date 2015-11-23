@@ -4,9 +4,9 @@ Tämä ohjesivusto käsittelee [Nettiniilo-laitteen](http://nettiniilo.fi) käyt
 
 Huomaathan, että
 
-- Ohjeita selataan valitsemalla haluttu kohta vasemman reunan päävalikosta
-- Tietokoneella voit käyttää nuolinäppäimiä edelliseen ja seuraavaan sisällysluettelon kohtaan siirtyäksesi
-- Tehdä sanahakuja koko ohjesivustolta käyttäen yläreunan suurennuslasi-työkalua
-- Ohjeiden käyttö on sujuvaa myös mobiililaitteilla
+- ohjeita selataan valitsemalla haluttu kohta vasemman reunan päävalikosta,
+- tietokoneella voit käyttää nuolinäppäimiä edelliseen ja seuraavaan sisällysluettelon kohtaan siirtyäksesi,
+- voit tehdä sanahakuja koko ohjesivustolta käyttäen yläreunan suurennuslasi-työkalua ja
+- ohjeiden käyttö on sujuvaa myös mobiililaitteilla.
 
 ![Nettiniilo](http://nettiniilo.fi/img/nettiniilo-laatikossa_jordman.jpg "Nettiniilo paketissaan")
