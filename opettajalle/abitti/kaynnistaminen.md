@@ -40,8 +40,7 @@ Jotta opiskelijoiden Abitti-muistitikuilta käynnistetyt koneet voivat kommuniko
 
 1. Varmista, että olet käynnistänyt Nettiniilon ja että se on *{{ book.abitti.nicename }}*ssa.
 4. Kun koetilapalvelin on käynnistynyt, kytke ethernet-johto koetilapalvelimesta Nettiniilon PoE LAN -porttiin.
-5. Jatka ohjeiden seuraavaan vaiheeseen.
 
 ### Verkkokaavio
 
-![Verkkokaavio](http://placehold.it/600x300 "Verkkokaavio (tulossa)")
+![Nettiniilo Abitti-moodissa](/files/images/nettiniilon-kytkenta-abitti-moodissa.png "Nettiniilon kytkentä Abitti-järjestelmää käytettäessä.")
