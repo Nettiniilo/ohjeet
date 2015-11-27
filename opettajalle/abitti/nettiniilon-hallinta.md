@@ -11,7 +11,7 @@ Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.abitti.nicename 
 	- Huomioithan, että salasana voi olla myös muutettu tehdasasetuksista
 	- Hallintapaneeliin käyttäjätunnus ja salasana eivät muutu Nettiniilon moodia vaihdettaessa
 
-![Nettiniilon hallintapaneeliin kirjautuminen](http://placehold.it/600x300 "Nettiniilon hallintapaneeliin kirjautuminen (tulossa)")
+![Nettiniilon hallintapaneeliin kirjautuminen](http://placehold.it/800x400 "Nettiniilon hallintapaneeliin kirjautuminen (tulossa)")
 
 ### Huomioita hallintapaneeliin kirjautumisesta
 
@@ -36,7 +36,7 @@ Nyt kun olet kirjautunut Abitti-palvelimen {{ book.abitti.browser }}-selaimen av
 	- Opiskelija klikkaa kuvaketta, jossa näkyy <!-- todo --> ikäänkuin kaksi sinistä tietokoneen ruutua ja valkoinen raksi punaisella pohjalla.
 	- Tämän jälkeen opiskelija valitsee opettajan kertoman WLAN-verkon nimen ja syöttää opettajan kertoman salasanan.
 
-![WLAN-verkon nimi ja salasana](http://placehold.it/600x300 "WLAN-verkon nimi ja salasana (tulossa)")
+![WLAN-verkon nimi ja salasana](http://placehold.it/800x400 "WLAN-verkon nimi ja salasana (tulossa)")
 
 ### Huomioita WLAN-verkon nimen asettamisesta
 
@@ -51,4 +51,4 @@ Nyt sinulla on Abitti-verkko valmiina käyttöön. Tee vielä seuraavat toimet n
 3. Valitse koetilapalvelimella käyttöön siirtotikulle tallentamasi koetiedosto ja syötä oma.abitti.fi-palvelusta tiedostoa varten saamasi purkuavain.
 4. Nyt pääsette aloittamaan sähköisen kokeen!
 
-![Kuva tai video koepaketin tuonnista käyttöön](http://placehold.it/600x300 "Kuva tai video koepaketin tuonnista käyttöön (tulossa)")
+![Kuva tai video koepaketin tuonnista käyttöön](http://placehold.it/800x400 "Kuva tai video koepaketin tuonnista käyttöön (tulossa)")

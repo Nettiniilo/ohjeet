@@ -11,7 +11,7 @@ Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.netti.nicename }
 	- Huomioithan, että salasana voi olla myös muutettu tehdasasetuksista
 	- Hallintapaneeliin käyttäjätunnus ja salasana eivät muutu Nettiniilon moodia vaihdettaessa
 
-![Nettiniilon hallintapaneeliin kirjautuminen](http://placehold.it/600x300 "Nettiniilon hallintapaneeliin kirjautuminen (tulossa)")
+![Nettiniilon hallintapaneeliin kirjautuminen](http://placehold.it/800x400 "Nettiniilon hallintapaneeliin kirjautuminen (tulossa)")
 
 ### Huomioita hallintapaneeliin kirjautumisesta
 
@@ -31,7 +31,7 @@ Nyt kun olet kirjautunut Nettiniilon hallintapaneeliin, toimi seuraavasti:
 	- haluat muuttaa asetuksia, kirjoita kenttiin haluamasi tiedot ja paina *Tallenna*-nappia.
 	- haluat tehdä rajauksia Internet-yhteyteen ennenkuin opiskelijat liittyvät verkkoon, älä kerro WLAN-verkon salasanaa opiskelijoille vielä.
 
-![WLAN-verkon nimi ja salasana](http://placehold.it/600x300 "WLAN-verkon nimi ja salasana (tulossa)")
+![WLAN-verkon nimi ja salasana](http://placehold.it/800x400 "WLAN-verkon nimi ja salasana (tulossa)")
 
 ### Huomioita WLAN-verkon nimen asettamisesta
 

@@ -12,4 +12,4 @@
 
 ## Verkkokaavio *{{ book.netti.nicename }}*ssa
 
-![Verkkokaavio](http://placehold.it/600x300 "Verkkokaavio (tulossa)")
+![Verkkokaavio](http://placehold.it/800x400 "Verkkokaavio (tulossa)")

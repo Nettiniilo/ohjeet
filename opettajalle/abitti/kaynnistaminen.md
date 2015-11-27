@@ -23,7 +23,7 @@ Ottaaksesi Nettiniilon käyttöön Abitti-järjestelmän kanssa käytettäväksi
 		- kun WPS-valo jää palamaan, on laite *{{ book.abitti.nicename }}*ssa
 6. Jatka ohjeiden seuraavaan vaiheeseen.
 
-![Kuva tai video Nettiniilon käynnistämisestä](http://placehold.it/600x300 "Kuva tai video Nettiniilon käynnistämisestä (tulossa)")
+![Kuva tai video Nettiniilon käynnistämisestä](http://placehold.it/800x400 "Kuva tai video Nettiniilon käynnistämisestä (tulossa)")
 
 
 ## Koetilapalvelimen käynnistäminen
