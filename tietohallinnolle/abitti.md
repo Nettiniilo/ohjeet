@@ -15,7 +15,7 @@ Olleessaan *{{ book.abitti.nicename }}*ssa Nettiniilo on ethernet-verkon näkök
 
 ## Nettiniilon firmwaren päivittäminen
 
-
+TODO
 
 ## Nettiniilon palauttaminen tehdasasetuksiin
 
@@ -29,18 +29,18 @@ Tehdasasetusten palauttaminen tapahtuu seuraavasti:
 
 ## Mahdollisuus hybridiverkkoon
 
-Oletusarvoisesti Nettiniiloa käytettäessä kaikki opiskelijat liittyvät Nettiniilon muodostamaan verkkoon ja sitä kautta Abitti-koetilapalvelimeen langattomasti. Nettiniilon avulla on kuitenkin mahdollista muodostaa myös hybridiverkko, jossa osa opiskelijoista liittyy verkkoon langattomasti ja osa ethernet-kaapelien kautta.
+Oletusarvoisesti Nettiniiloa käytettäessä kaikki opiskelijat liittyvät Nettiniilon muodostamaan langattomaan verkkoon ja sitä kautta Abitti-koetilapalvelimeen. Nettiniilon avulla on kuitenkin mahdollista muodostaa myös hybridiverkko, jossa osa opiskelijoista liittyy verkkoon langattomasti ja osa ethernet-kaapelien kautta.
 
 ### Syitä hybridiverkon muodostamiseen
 
-Hybridiverkon muodostaminen on varteenotettava vaihtoehto esimerkiksi seuraavissa tilanteissa:
+Hybridiverkon muodostaminen on varteenotettava vaihtoehto esimerkiksi jos
 
-- osassa päätelaitteista langaton verkko ei syystä tai toisesta toimi Abitti-opiskelijantikun käyttöjärjestelmää käytettäessä
-- halutaan liittää enemmän päätelaitteita samaan verkkoon kuin Nettiniilo jaksaa langattomasti palvella (Nettiniilon pitäisi pystyä palvelemaan *{{ book.abitti.nicename }}*ssa jopa 50-60 opiskelijaa)
+- osassa päätelaitteista langaton verkko ei syystä tai toisesta toimi Abitti-opiskelijantikun käyttöjärjestelmää käytettäessä tai
+- halutaan liittää enemmän päätelaitteita samaan verkkoon kuin Nettiniilo jaksaa langattomasti palvella (Nettiniilon pitäisi pystyä palvelemaan *{{ book.abitti.nicename }}*ssa jopa 50-60 opiskelijaa yhtä aikaa).
 
 ### Hybridiverkon muodostaminen
 
-Muodostaaksesi hybridiverkon tarvitset Nettiniilon ja Abitti-palvelimen lisäksi kytkimen (switch) sekä luonnollisesti tarvittavan määrän ethernet-kaapeleita.
+Muodostaaksesi hybridiverkon tarvitset Nettiniilon ja Abitti-palvelimen lisäksi kytkimen (switch) sekä tietysti ethernet-kaapeleita. Huomaathan, että kytkin ja reititin ovat eri asia ja tässä tarvitaan nimenomaan kytkin.
 
 Toimi seuraavasti verkon muodostamiseksi:
 
@@ -52,6 +52,8 @@ Toimi seuraavasti verkon muodostamiseksi:
 4. Liitä Abitti-palvelin ethernet-johdolla kytkimeen (ei siis Nettiniiloon).
 5. Liitä ethernet-kaapelilla verkkoon liitettävät opiskelijoiden koneet kytkimessä vielä vapaana oleviin portteihin.
 
+
+![Hybridiverkon verkkokaavio](http://placehold.it/800x400)
 
 
 ## WLAN-verkon käyttämän taajuuden/kanavan käsivalinta
