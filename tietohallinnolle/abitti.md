@@ -54,7 +54,7 @@ Toimi seuraavasti verkon muodostamiseksi:
 	- varmista, että laite on *{{ book.abitti.nicename }}*ssa eli että WPS-valo palaa
 2. Käynnistä Abitti-koetilapalvelin.
 3. Liitä Nettiniilo PoE LAN -portistaan ethernet-johdolla kytkimeen.
-4. Liitä Abitti-palvelin ethernet-johdolla kytkimeen (ei siis Nettiniiloon).
+4. Liitä Abitti-palvelin ethernet-johdolla kytkimeen.
 5. Liitä ethernet-kaapelilla verkkoon liitettävät opiskelijoiden koneet kytkimessä vielä vapaana oleviin portteihin.
 
 
