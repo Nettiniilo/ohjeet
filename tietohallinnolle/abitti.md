@@ -31,6 +31,7 @@ Tehdasasetusten palauttaminen tapahtuu seuraavasti:
 
 Oletusarvoisesti Nettiniiloa käytettäessä kaikki opiskelijat liittyvät Nettiniilon muodostamaan langattomaan verkkoon ja sitä kautta Abitti-koetilapalvelimeen. Nettiniilon avulla on kuitenkin mahdollista muodostaa myös hybridiverkko, jossa osa opiskelijoista liittyy verkkoon langattomasti ja osa ethernet-kaapelien kautta.
 
+
 ### Syitä hybridiverkon muodostamiseen
 
 Hybridiverkon muodostaminen on varteenotettava vaihtoehto esimerkiksi jos
@@ -41,6 +42,10 @@ Hybridiverkon muodostaminen on varteenotettava vaihtoehto esimerkiksi jos
 ### Hybridiverkon muodostaminen
 
 Muodostaaksesi hybridiverkon tarvitset Nettiniilon ja Abitti-palvelimen lisäksi kytkimen (switch) sekä tietysti ethernet-kaapeleita. Huomaathan, että kytkin ja reititin ovat eri asia ja tässä tarvitaan nimenomaan kytkin.
+
+![Abitti-verkko, jossa sekä langattomasti että kaapeleilla liittyneitä opiskelijoita](/files/images/abitti_hybridiverkko.png)
+
+#### Hybridiverkon kytkentäohjeet
 
 Toimi seuraavasti verkon muodostamiseksi:
 
@@ -53,8 +58,14 @@ Toimi seuraavasti verkon muodostamiseksi:
 5. Liitä ethernet-kaapelilla verkkoon liitettävät opiskelijoiden koneet kytkimessä vielä vapaana oleviin portteihin.
 
 
-![Hybridiverkon verkkokaavio](http://placehold.it/800x400)
 
+## Aineistojen jakaminen Nettiniilon avulla Abitti-kaapeliverkkoon
+
+Nettiniiloa on mahdollista käyttää oheisaineistojen jakamiseen opiskelijoille siinäkin tapauksessa, että varsinaiset tietoliikenneyhteydet muodostetaan kaapeleilla, esim. atk-luokassa tai kielistudiossa.
+
+Nettiniilon aineistonjako on nopea ja suoraviivainen käyttää: opettaja kopioi halutut tiedostot muistitikulle ja liittää muistitikun Nettiniilon USB-porttiin.
+
+![Aineistonjako kaapeliverkossa Nettiniilon avulla](/files/images/abitti_aineistonjako-kaapeliverkkoon.png)
 
 ## WLAN-verkon käyttämän taajuuden/kanavan käsivalinta
 
