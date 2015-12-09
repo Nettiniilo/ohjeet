@@ -63,7 +63,11 @@ Toimi seuraavasti verkon muodostamiseksi:
 
 Nettiniiloa on mahdollista käyttää oheisaineistojen jakamiseen opiskelijoille siinäkin tapauksessa, että varsinaiset tietoliikenneyhteydet muodostetaan kaapeleilla, esim. atk-luokassa tai kielistudiossa.
 
-Nettiniilon aineistonjako on nopea ja suoraviivainen käyttää: opettaja kopioi halutut tiedostot muistitikulle ja liittää muistitikun Nettiniilon USB-porttiin.
+Nettiniilon aineistonjako on nopea ja suoraviivainen käyttää:
+
+1. Opettaja kopioi halutut tiedostot tavalliselle muistitikulle ja
+2. liittää muistitikun Nettiniilon USB-porttiin.
+3. Nyt jaopiskelijat näkevät Abitti-tikuilta käynnistetyillä koneillaan jaetut aineistot selaimellaan osoitteessa <{{ book.abitti.urls.share }}>
 
 ![Aineistonjako kaapeliverkossa Nettiniilon avulla](/files/images/abitti_aineistonjako-kaapeliverkkoon.png)
 
@@ -83,7 +87,16 @@ Nettiniiloa on testattu valmistajan puolesta *{{ book.abitti.nicename }}*ssa eni
 
 - Abitti-palvelimena toimi tavallinen pöytäkone
 - 60 Abitti-opiskelijantikuilta käynnistettyä langattomasti liittynyttä konetta
-- Ylioppilastutkintolautakunnan kevyt ja raskas kuormitustesti ok
+- Ylioppilastutkintolautakunnan kevyt kuormitustesti ok
+- YTL:n raskas kuormitustesti hidastui 55 koneen kohdalla, mutta tämä saattoi myös johtua siitä, että palvelinkoneena oli vanha pöytäkone
 - 250 kbit/s videon katsominen Nettiniilon materiaalinjaon kautta oppilaskoneille streamattuna
 	- videon katselu aloitettiin pienellä porrastuksella
 	- porrastus johtui siitä, että koneet piti "juosta läpi" play-nappia klikaten
+	- 60 oppilaskoneessa verkon kapasiteetti alkoi tulla vastaan
+
+### Yhteenveto
+
+- Em. testeillä näyttäisi, että 50-60 langattomasti liittynyttä laitetta Abitti-verkossa on Nettiniilon suorituskyvyn maksimin tuntumassa.
+- Huomaathan, että paikallinen 2.4GHz taajuuden "tukkoisuus" voi huonontaa saavutettavissa olevia tuloksia.
+- Kannattaa seurata esim. Android-laitteille käytettävissä olevalla Wifi Analyzerilla taajuuksien käyttöä.
+- Tarvittaessa Nettiniilo on mahdollista asettaa käyttämään tiettyä taajuutta käynnistyksen yhteydessä tapahtuvan automaattivalinnan sijaan; tämä saattaa parantaa tuloksia tukkoisen 2.4GHz taajuuden tilanteessa esim. jos Nettiniilot asetetaan käyttämään "välikanavia" 3, 4, 8 tai 9.
