@@ -11,7 +11,11 @@ Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.abitti.nicename 
 	- Huomioithan, että salasana voi olla myös muutettu tehdasasetuksista
 	- Hallintapaneeliin käyttäjätunnus ja salasana eivät muutu Nettiniilon moodia vaihdettaessa
 
-![Nettiniilon hallintapaneeliin kirjautuminen](http://placehold.it/800x400 "Nettiniilon hallintapaneeliin kirjautuminen (tulossa)")
+<div class="video-container-4by3" style="position:relative; padding-bottom:71.2%; padding-top:30px; height:0; overflow:hidden;">
+<iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" width="420" height="315" src="https://www.youtube.com/embed/Ll5rfAPH0oA" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<!-- ![Nettiniilon hallintapaneeliin kirjautuminen](http://placehold.it/800x400 "Nettiniilon hallintapaneeliin kirjautuminen (tulossa)") -->
 
 ### Huomioita hallintapaneeliin kirjautumisesta
 
@@ -36,7 +40,11 @@ Nyt kun olet kirjautunut Abitti-palvelimen {{ book.abitti.browser }}-selaimen av
 	- Opiskelija klikkaa kuvaketta, jossa näkyy <!-- todo --> ikäänkuin kaksi sinistä tietokoneen ruutua ja valkoinen raksi punaisella pohjalla.
 	- Tämän jälkeen opiskelija valitsee opettajan kertoman WLAN-verkon nimen ja syöttää opettajan kertoman salasanan.
 
-![WLAN-verkon nimi ja salasana](http://placehold.it/800x400 "WLAN-verkon nimi ja salasana (tulossa)")
+<div class="video-container-4by3" style="position:relative; padding-bottom:71.2%; padding-top:30px; height:0; overflow:hidden;">
+<iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" width="420" height="315" src="https://www.youtube.com/embed/At4qJw_bkws" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<!--![WLAN-verkon nimi ja salasana](http://placehold.it/800x400 "WLAN-verkon nimi ja salasana (tulossa)") -->
 
 ### Huomioita WLAN-verkon nimen asettamisesta
 
