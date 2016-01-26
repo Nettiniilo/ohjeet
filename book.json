@@ -48,8 +48,8 @@
 			}
 		},
 		"conformity": {
-			"issuer": "Tmi Fredea (Y-tunnus: 2448738-6)",
-			"declaration": "https://nettiniilo.fi/complience"
+			"issuer": "Nettiniilo Oy (Y-tunnus: <a href='https://tietopalvelu.ytj.fi/yritystiedot.aspx?yavain=2599364&tarkiste=B20BC7668D7049716D9C81AD3099E8E3B3EC0AA9'>2730021-4</a>)",
+			"declaration": "https://nettiniilo.fi/files/Nettiniilo-DoC.pdf"
 		}
 	}
 }
