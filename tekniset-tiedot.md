@@ -23,4 +23,4 @@
 
 {{ book.conformity.issuer }} vakuuttaa täten, että tämä laite on direktiivin 1999/5/EY oleellisten vaatimusten ja sitä koskevien direktiivin muiden ehtojen mukainen.
 
-Tarkempi vaatimustenmukaisuusvakuutus on noudettavissa osoitteesta <{{ book.conformity.declaration }}>. Sähkö- ja elektroniikkalaite on direktiivin mukainen ja CE-hyväksytty.
+Vaatimustenmukaisuusvakuutus on noudettavissa osoitteesta <{{ book.conformity.declaration }}>.
