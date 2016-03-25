@@ -19,7 +19,6 @@ Ottaaksesi Nettiniilon käyttöön *{{ book.netti.nicename }}*ssa, toimi seuraav
 		- kun WPS-valo jää pois päältä, on laite *{{ book.netti.nicename }}*ssa
 6. Jatka ohjeiden seuraavaan vaiheeseen.
 
-![Kuva tai video Nettiniilon käynnistämisestä](http://placehold.it/800x400 "Kuva tai video Nettiniilon käynnistämisestä (tulossa)")
 
 
 ## Yhteys Nettiniilon ja opettajan koneen välille
