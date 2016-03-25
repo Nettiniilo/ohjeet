@@ -32,6 +32,7 @@
 		"abitti": {
 			"nicename": "Abitti-moodi",
 			"urls": {
+				"ip":     "10.10.0.10",
 				"admin":  "http://10.10.0.10",
 				"share":  "http://10.10.0.10:443",
 				"upload": "http://10.10.0.10:8010"
@@ -41,6 +42,7 @@
 		"netti": {
 			"nicename": "Nettimoodi",
 			"urls": {
+				"ip":       "192.168.1.1",
 				"admin":    "http://192.168.1.1:8020",
 				"register": "http://192.168.1.1:8080",
 				"landing":  "http://192.168.1.1",
