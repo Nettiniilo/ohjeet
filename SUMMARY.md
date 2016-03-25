@@ -10,6 +10,7 @@
 	- [{{ book.netti.nicename }} opettajalle](opettajalle/netti/README.md)
 		- [Laitteiden käynnistäminen](opettajalle/netti/kaynnistaminen.md)
 		- [Nettiniilon hallinta](opettajalle/netti/nettiniilon-hallinta.md)
+		- [Osoiterajauksen lisäohjeet](opettajalle/netti/osoiterajaus.md)
 - [Opiskelijalle: yleistä](opiskelijalle/README.md)
 	- [{{ book.abitti.nicename }} opiskelijalle](opiskelijalle/abitti.md)
 	- [{{ book.netti.nicename }} opiskelijalle](opiskelijalle/netti.md)
