@@ -15,7 +15,10 @@ Olleessaan *{{ book.abitti.nicename }}*ssa Nettiniilo on ethernet-verkon näkök
 
 ## Nettiniilon firmwaren päivittäminen
 
-TODO
+1. Lataa Nettiniilon zip-muotoinen päivitystiedosto sähköpostitse valmistajalta saamastasi latauslinkistä.
+2. Pura päivitystiedoston sisältö jonkun muistitikun juurikansioon. Muistitikulle ilmestyvät tällöin tiedostot <kbd>nettiniilo.bin</kbd> ja <kbd>nettiniilo.bin.md5</kbd>.
+3. Kiinnitä muistitikku Nettiniilon USB-porttiin ja odota pari sekuntia.
+4. Paina alla olevaa *Päivitä ohjelmisto* -nappia.
 
 ## Nettiniilon palauttaminen tehdasasetuksiin
 
