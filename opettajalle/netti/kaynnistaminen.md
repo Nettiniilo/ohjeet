@@ -31,4 +31,4 @@ Kun olet käynnistänyt Nettiniilon, toimi seuraavasti liittääksesi käyttäm�
 
 ### Verkkokaavio
 
-![Verkkokaavio](http://placehold.it/800x400 "Verkkokaavio (tulossa)")
+![Verkkokaavio](/files/images/nettiniilon-verkkokaavio-nettimoodissa.png "Verkkokaavio Nettiniilon käytöstä {{ book.netti.nicename }}ssa")

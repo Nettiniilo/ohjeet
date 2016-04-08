@@ -12,4 +12,4 @@
 
 ## Verkkokaavio *{{ book.netti.nicename }}*ssa
 
-![Verkkokaavio](http://placehold.it/800x400 "Verkkokaavio (tulossa)")
+![Verkkokaavio](/files/images/nettiniilon-verkkokaavio-nettimoodissa.png "Verkkokaavio Nettiniilon käytöstä {{ book.netti.nicename }}ssa")
