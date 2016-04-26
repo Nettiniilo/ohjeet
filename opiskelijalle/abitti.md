@@ -10,10 +10,11 @@ Voidaksesi käyttää Abitti-kurssikoejärjestelmää on sinun käynnistettävä
 
 1. Sammuta tietokoneesi mikäli se on päällä
 2. Liitä Abitti-opiskelijantikku koneesi USB-porttiin.
-3. Lue seuraavat ohjeet siitä mitä näppäintä näpyttelemällä koneesi todennäköisesti saadaan käynnistymään muistitikulta. Lisäohjeita voit etsiä Internetistä hakemalla:
+3. Lue seuraavat ohjeet siitä mitä näppäintä näpyttelemällä koneesi todennäköisesti saadaan käynnistymään muistitikulta:
 	- HP:n koneissa yleensä F9
 	- Fujitsun ja Lenovon koneissa yleensä F12
 	- Applen koneissa pidä käynnistyksen aikana Alt-näppäintä pohjassa
+	- Laitteistokohtaisia ohjeita: <https://craftedflash.com/info/how-boot-computer-from-usb-flash-drive>
 4. Käynnistä koneesi ja näpyttele koneen muistitikulta käynnistämiseksi tarvittavaa näppäimistön näppäintä.
 5. Käynnistä koneesi Abitti-järjestelmään.
 6. Jatka ohjeiden seuraavaan kohtaan.
