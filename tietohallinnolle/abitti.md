@@ -80,7 +80,7 @@ Oletusarvoisesti Nettiniilon langaton verkko valitsee laitteen käynnistyksen yh
 
 On kuitenkin tilanteita, joissa on perusteltua asettaa Nettiniilo käyttämään aina samaa taajuutta/kanavaa. Näin esimerkiksi jos Nettiniilot asennetaan opetusluokkiin kiinteästi ja halutaan vierekkäisissä tiloissa olevat Nettiniilot käyttämään keskenään eri taajuuksia.
 
-Taajuuden/kanavan käsivalinta ei ole tällä hetkellä mahdollista, mutta on tulossa mahdolliseksi ohjelmistopäivityksen myötä myöhemmin.
+Taajuuden/kanavan manuaalivalinta on mahdollinen Nettiniilon hallintapaneelin *Paikallinen WLAN* -näkymän kautta Nettiniilon ohjelmistoversiosta v1.1.0 alkaen.
 
 
 
@@ -92,7 +92,7 @@ Nettiniiloa on testattu valmistajan puolesta *{{ book.abitti.nicename }}*ssa eni
 - 60 Abitti-opiskelijantikuilta käynnistettyä langattomasti liittynyttä konetta
 - Ylioppilastutkintolautakunnan kevyt kuormitustesti ok
 - YTL:n raskas kuormitustesti hidastui 55 koneen kohdalla, mutta tämä saattoi myös johtua siitä, että palvelinkoneena oli vanha pöytäkone
-- 250 kbit/s videon katsominen Nettiniilon materiaalinjaon kautta oppilaskoneille streamattuna
+- 255 kbit/s videon katsominen Nettiniilon materiaalinjaon kautta oppilaskoneille streamattuna
 	- videon katselu aloitettiin pienellä porrastuksella
 	- porrastus johtui siitä, että koneet piti "juosta läpi" play-nappia klikaten
 	- 60 oppilaskoneessa verkon kapasiteetti alkoi tulla vastaan
@@ -102,4 +102,4 @@ Nettiniiloa on testattu valmistajan puolesta *{{ book.abitti.nicename }}*ssa eni
 - Em. testeillä näyttäisi, että 50-60 langattomasti liittynyttä laitetta Abitti-verkossa on Nettiniilon suorituskyvyn maksimin tuntumassa.
 - Huomaathan, että paikallinen 2.4GHz taajuuden "tukkoisuus" voi huonontaa saavutettavissa olevia tuloksia.
 - Kannattaa seurata esim. Android-laitteille käytettävissä olevalla Wifi Analyzerilla taajuuksien käyttöä.
-- Tarvittaessa Nettiniilo on mahdollista asettaa käyttämään tiettyä taajuutta käynnistyksen yhteydessä tapahtuvan automaattivalinnan sijaan; tämä saattaa parantaa tuloksia tukkoisen 2.4GHz taajuuden tilanteessa esim. jos Nettiniilot asetetaan käyttämään "välikanavia" 3, 4, 8 tai 9.
+- Tarvittaessa Nettiniilo on ohjelmistoversiosta v1.1.0 alkaen mahdollista asettaa opettajille tarkoitetusta hallintapaneelista käsin käyttämään tiettyä taajuutta käynnistyksen yhteydessä tapahtuvan automaattivalinnan sijaan; tämä saattaa parantaa tuloksia tukkoisen 2.4GHz taajuuden tilanteessa esim. jos Nettiniilot asetetaan käyttämään "välikanavia" 3, 4, 8 tai 9.

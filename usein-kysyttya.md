@@ -12,7 +12,7 @@ Nämä ohjeet ovat joko yleisiä tai koskevat sekä Abitti- että *{{ book.netti
 |----|-----------------|-----------------|
 | 1. | Vaihdoit Nettiniilon moodia (*{{ book.abitti.nicename }}*sta *{{ book.netti.nicename }}*in tai päinvastoin) ja olit vaihtohetkellä liittyneenä Nettiniiloon joko ethernet-kaapelilla tai langattomasti. Moodin vaihdon jälkeen et saa yhteyttä esimerkiksi Nettiniilon hallintapaneeliin. | **a)** Irroita koneen ja Nettiniilon välinen ethernet-kaapeli noin 10 sekunniksi ja liitä se sitten takaisin ja kokeile uudestaan.<br>**b)** Jos käytit langatonta yhteyttä, katkaise se ja yhdistä uudestaan. |
 | 2. | Pääset Nettiniilon tiedostojenjakoon (*{{ book.abitti.nicename }}*ssa: <{{ book.abitti.urls.share }}>, *{{ book.netti.nicename }}*ssa: <{{ book.netti.urls.share }}>), mutta et saa osaa tiedostoista ladattua vaikka tiedosto näkyy tiedostolistauksessa. | Onko ongelmia aiheuttavien tiedostojen tiedostonimissä ääkkösiä tai lainausmerkkejä? Mikäli kyllä, kyseiset merkit on poistettava tiedostonimestä, jotta tiedosto on käytettävissä Nettiniilon materiaalinjaon kautta. |
-| 3. | Nettiniilon materiaalijaon kautta jaettuja video- ja äänitiedostoja ei voi kelata. | Johtuu Nettiniilossa käytössä olevasta HTTP-palvelimesta. Korjaus työlistalla. |
+| 3. | Nettiniilon materiaalijaon kautta jaettuja video- ja äänitiedostoja ei voi kelata. | Toimii Nettiniilon ohjelmistoversiosta v1.1.0 alkaen. |
 
 
 ## *{{ book.abitti.nicename }}*
