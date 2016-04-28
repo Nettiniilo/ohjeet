@@ -12,4 +12,4 @@
 
 ## Verkkokaavio *{{ book.netti.nicename }}*ssa
 
-![Verkkokaavio](/files/images/nettiniilon-verkkokaavio-nettimoodissa.png "Verkkokaavio Nettiniilon käytöstä {{ book.netti.nicename }}ssa")
+![Verkkokaavio](/images/nettiniilon-verkkokaavio-nettimoodissa.png "Verkkokaavio Nettiniilon käytöstä {{ book.netti.nicename }}ssa")

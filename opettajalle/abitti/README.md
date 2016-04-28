@@ -8,4 +8,4 @@ Nettiniilo toimii "kaapelinkorvaajana" mahdollistaen Abitti-järjestelmää hyö
 
 Kun Nettiniilon avulla muodostetaan tietoliikenneverkko Abitti-käyttöä varten, näyttää verkko kaaviokuvana seuraavalta:
 
-![Nettiniilo Abitti-moodissa](/files/images/nettiniilon-verkkokaavio-abitti-moodissa.png "Nettiniilon kytkentä Abitti-järjestelmää käytettäessä. Huomaa, että Nettiniilon on oltava Abitti-moodissa eli WPS-valon täytyy palaa.")
+![Nettiniilo Abitti-moodissa](/images/nettiniilon-verkkokaavio-abitti-moodissa.png "Nettiniilon kytkentä Abitti-järjestelmää käytettäessä. Huomaa, että Nettiniilon on oltava Abitti-moodissa eli WPS-valon täytyy palaa.")

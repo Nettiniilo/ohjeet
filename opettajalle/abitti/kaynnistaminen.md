@@ -43,4 +43,4 @@ Jotta opiskelijoiden Abitti-muistitikuilta käynnistetyt koneet voivat kommuniko
 
 ### Verkkokaavio
 
-![Nettiniilo Abitti-moodissa](/files/images/nettiniilon-verkkokaavio-abitti-moodissa.png "Nettiniilon kytkentä Abitti-järjestelmää käytettäessä.")
+![Nettiniilo Abitti-moodissa](/images/nettiniilon-verkkokaavio-abitti-moodissa.png "Nettiniilon kytkentä Abitti-järjestelmää käytettäessä.")

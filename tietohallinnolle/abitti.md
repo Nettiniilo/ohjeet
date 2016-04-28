@@ -46,7 +46,7 @@ Hybridiverkon muodostaminen on varteenotettava vaihtoehto esimerkiksi jos
 
 Muodostaaksesi hybridiverkon tarvitset Nettiniilon ja Abitti-palvelimen lisäksi kytkimen (switch) sekä tietysti ethernet-kaapeleita. Huomaathan, että kytkin ja reititin ovat eri asia ja tässä tarvitaan nimenomaan kytkin.
 
-![Abitti-verkko, jossa sekä langattomasti että kaapeleilla liittyneitä opiskelijoita](/files/images/abitti_hybridiverkko.png)
+![Abitti-verkko, jossa sekä langattomasti että kaapeleilla liittyneitä opiskelijoita](/images/abitti_hybridiverkko.png)
 
 #### Hybridiverkon kytkentäohjeet
 
@@ -72,7 +72,7 @@ Nettiniilon aineistonjako on nopea ja suoraviivainen käyttää:
 2. liittää muistitikun Nettiniilon USB-porttiin.
 3. Nyt jaopiskelijat näkevät Abitti-tikuilta käynnistetyillä koneillaan jaetut aineistot selaimellaan osoitteessa <{{ book.abitti.urls.share }}>
 
-![Aineistonjako kaapeliverkossa Nettiniilon avulla](/files/images/abitti_aineistonjako-kaapeliverkkoon.png)
+![Aineistonjako kaapeliverkossa Nettiniilon avulla](/images/abitti_aineistonjako-kaapeliverkkoon.png)
 
 ## WLAN-verkon käyttämän taajuuden/kanavan käsivalinta
 

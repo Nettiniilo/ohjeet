@@ -30,7 +30,7 @@ Nyt kun olet kirjautunut Nettiniilon hallintapaneeliin, toimi seuraavasti:
 	- haluat muuttaa asetuksia, kirjoita kenttiin haluamasi tiedot ja paina *Tallenna*-nappia.
 	- haluat tehdä rajauksia Internet-yhteyteen ennenkuin opiskelijat liittyvät verkkoon, älä kerro WLAN-verkon salasanaa opiskelijoille vielä.
 
-![Nettiniilon opiskelijoille tarjoaman WLAN-verkon nimi ja salasana](/files/images/nettimoodi_paikallinen-wlan.png)
+![Nettiniilon opiskelijoille tarjoaman WLAN-verkon nimi ja salasana](/images/nettimoodi_paikallinen-wlan.png)
 
 ### Huomioita WLAN-verkon nimen asettamisesta
 
@@ -44,7 +44,7 @@ Nettiniilo on mahdollista yhdistää Internetiin joko ethenet-kaapelilla tai vai
 
 Kun Internet-yhteys on muodostesttu Nettiniilosta eteenpäin, on tämän jälkeen on mahdollista tarjota opiskelijoille Internet-yhteys Nettiniilon jakaman WLAN-verkon kautta. Tällöin opettajalle tarjoutuu mahdollisuus a) rajata niitä sivustoja, joihin opiskelijoilla on pääsy ja b) jakaa opiskelijoille oheisaineistoja Nettiniilon kautta.
 
-![Internet-yhteyden muodostaminen Nettiniilosta eteenpäin](/files/images/nettimoodi_internet-yhteys.png)
+![Internet-yhteyden muodostaminen Nettiniilosta eteenpäin](/images/nettimoodi_internet-yhteys.png)
 
 ### Internet-yhteys ethernet-kaapelilla koulun seinään
 
@@ -92,7 +92,7 @@ Varmista, että Nettiniilo on liitettynä Internet-yhteyteen joko WAN/LAN-portin
 4. Voit sallia useampia verkkopalveluita listaamalla tarvittavat domainit, yksi per rivi.
 5. Kun olet syöttänyt haluamasi domainit ja niihin [lisäohjeissa](osoiterajaus.html) mahdollisesti kehotetut lisädomainit, paina *Aloita rajaus* -nappia.
 
-![Sallittujen domainien asettaminen Nettiniilon hallintapaneelissa {{ book.netti.nicename}}ssa.](/files/images/nettimoodi_sallitut-domainit.png)
+![Sallittujen domainien asettaminen Nettiniilon hallintapaneelissa {{ book.netti.nicename}}ssa.](/images/nettimoodi_sallitut-domainit.png)
 
 
 

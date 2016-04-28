@@ -8,10 +8,10 @@ Ideana on liittyä Nettiniilo-laitteen tarjoamaan langattomaan verkkoon kun opet
 
 ### Verkkoon liittyminen Windows 7 -koneella
 
-1. Etsi oikealta alanurkasta ilmaisinalueelta langattoman verkon kuvake (vähän kuin "portaikko") ![Tarjolla olevien langattomien verkkojen tarkastelu](/files/images/nettimoodi_wlan-liittyminen_win7-01.png)
+1. Etsi oikealta alanurkasta ilmaisinalueelta langattoman verkon kuvake (vähän kuin "portaikko") ![Tarjolla olevien langattomien verkkojen tarkastelu](/images/nettimoodi_wlan-liittyminen_win7-01.png)
 2. Klikkaa em. kuvaketta hiiren ykköspainikkeella (yleensä vasen painike)
 3. Klikkaa opettajasi mainitseman verkon nimeä, esim. *NettiniiloX*
-4. Poista valinta kohdasta *Yhdistä automaattisesti* ja klikkaa *Yhdistä* ![Nettiniilon tarjoamaan langattomaan verkkoon liittyminen](/files/images/nettimoodi_wlan-liittyminen_win7-02.png)
+4. Poista valinta kohdasta *Yhdistä automaattisesti* ja klikkaa *Yhdistä* ![Nettiniilon tarjoamaan langattomaan verkkoon liittyminen](/images/nettimoodi_wlan-liittyminen_win7-02.png)
 
 
 ### Verkkoon liittyminen Windows 8 -koneella
@@ -30,7 +30,7 @@ Tulossa...
 
 *Yhdistä automaattisesti* -valinnan poistaminen tehdään seuraavasta syystä: mikäli ko. valinta jätettäisiin voimaan ja Nettiniilon tarjoaman langattoman verkon salasana myöhemmin muutetaan, mutta nimi säilyisi ennallaan ja olit aiemmin liittynyt samaan verkkoon, yrittäisi Windows tällöin liittyä muistettuun/tallennettuun langattomaan verkkoon samalla salasanalla kuin aiemmin ja kun vanha salasana ei enää kelpaakaan, toteaa Windows melko epäinformatiivisesti näin:
 
-![Windowsin ilmoitus jos Nettiniilon salasana muutettu, mutta verkon nimi ennallaan](/files/images/nettimoodi_wlan-liittyminen_win7-salasanavirhe.png "Näin Windows 7 toteaa jos muistetun verkon salasana on muutettu")
+![Windowsin ilmoitus jos Nettiniilon salasana muutettu, mutta verkon nimi ennallaan](/images/nettimoodi_wlan-liittyminen_win7-salasanavirhe.png "Näin Windows 7 toteaa jos muistetun verkon salasana on muutettu")
 
 ## Etu- ja sukunimen syöttäminen
 

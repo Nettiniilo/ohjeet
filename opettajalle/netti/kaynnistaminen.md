@@ -31,4 +31,4 @@ Kun olet käynnistänyt Nettiniilon, toimi seuraavasti liittääksesi käyttäm�
 
 ### Verkkokaavio
 
-![Verkkokaavio](/files/images/nettiniilon-verkkokaavio-nettimoodissa.png "Verkkokaavio Nettiniilon käytöstä {{ book.netti.nicename }}ssa")
+![Verkkokaavio](/images/nettiniilon-verkkokaavio-nettimoodissa.png "Verkkokaavio Nettiniilon käytöstä {{ book.netti.nicename }}ssa")
