@@ -1,29 +1,6 @@
 # Tietoa Nettiniilon ohjelmistoversiosta
 
-## Versionumerointi
-
-### Versiosta 1.0.0 alkaen
-
-Versiosta 1.0.0 alkaen Nettiniilon ohjelmiston versionumerointi noudattaa [Semantic Versioning](http://semver.org/) -periaatteita. Versionumero on siis muotoa *MAJOR*.*MINOR*.*PATCH*, missä:
-
-- *MAJOR*-numeron muuttuessa päivitys aiheuttaa aiemman käytön näkökulmasta epäyhteensopivia muutoksia, ts. käyttäjä joutuu opettelemaan tekemään ainakin yhden ennestään tutun asian uudella tavalla. *MAJOR*-version muutos voi myös tuoda Nettiniiloon uusia ominaisuuksia tai sisältää *PATCH*-tyyppisiä toiminnallisuus- tai tietoturvakorjauksia.
-- *MINOR*-numeron muuttuessa päivitys tuo mukaan uusia toiminnallisuuksia muttei oleellisesti muuta ennestään tuttuja ominaisuuksia käyttäjän näkökulmasta. *MINOR*-numeron muutos saattaa sisältää myös *PATCH*-tyyppisiä muutoksia.
-- *PATCH*-numeron muuttuessa päivitys korjaa mahdollisia ohjelmistovirheitä tai parantaa laitteen tietoturvaa tms. muttei tuo uusia ominaisuuksia eikä oleellisesti muuta ennestään käytössä olleiden ominaisuuksien käyttötapaa.
-
-
-#### Versiopäivitysten kiireellisyys
-
-Tässä pähkinänkuoressa tieto siitä missä tilanteessa tietyn ohjelmistopäivityksen asentaminen Nettiniiloon on tarpeellista:
-
-- ***MAJOR*-version muutos:** päivittämistarve ei kiireellinen ellei toisin mainita.
-- ***MINOR*-version muutos:** päivittämistarve ei kiireellinen ellei toisin mainita.
-- ***PATCH*-version muutos:** päivittäminen suositeltavaa mahdollisimman pian ellei toisin mainita.
-
-
-### Beta-versiot ennen versiota 1.0.0
-
-Ennen versiota 1.0.0 Nettiniilon ohjelmistoversiot numeroitiin päivämäärän mukaan, aluksi muodossa VV.KK.PP ja sitten VVVV-KK-PP.
-
+<!-- toc -->
 
 ## Versiohistoria
 
@@ -153,3 +130,27 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 <dt>v15.03.20 beta (20.3.2015)</dt>
 <dd>Ensimmäinen julkaistu versio</dd>
 </dl>
+
+## Tietoa versionumeroinnista
+
+### Versiosta 1.0.0 alkaen
+
+Versiosta 1.0.0 alkaen Nettiniilon ohjelmiston versionumerointi noudattaa [Semantic Versioning](http://semver.org/) -periaatteita. Versionumero on siis muotoa *MAJOR*.*MINOR*.*PATCH*, missä:
+
+- *MAJOR*-numeron muuttuessa päivitys aiheuttaa aiemman käytön näkökulmasta epäyhteensopivia muutoksia, ts. käyttäjä joutuu opettelemaan tekemään ainakin yhden ennestään tutun asian uudella tavalla. *MAJOR*-version muutos voi myös tuoda Nettiniiloon uusia ominaisuuksia tai sisältää *PATCH*-tyyppisiä toiminnallisuus- tai tietoturvakorjauksia.
+- *MINOR*-numeron muuttuessa päivitys tuo mukaan uusia toiminnallisuuksia muttei oleellisesti muuta ennestään tuttuja ominaisuuksia käyttäjän näkökulmasta. *MINOR*-numeron muutos saattaa sisältää myös *PATCH*-tyyppisiä muutoksia.
+- *PATCH*-numeron muuttuessa päivitys korjaa mahdollisia ohjelmistovirheitä tai parantaa laitteen tietoturvaa tms. muttei tuo uusia ominaisuuksia eikä oleellisesti muuta ennestään käytössä olleiden ominaisuuksien käyttötapaa.
+
+
+### Versiopäivitysten kiireellisyys
+
+Tässä pähkinänkuoressa tieto siitä missä tilanteessa tietyn ohjelmistopäivityksen asentaminen Nettiniiloon on tarpeellista:
+
+- ***MAJOR*-version muutos:** päivittämistarve ei kiireellinen ellei toisin mainita.
+- ***MINOR*-version muutos:** päivittämistarve ei kiireellinen ellei toisin mainita.
+- ***PATCH*-version muutos:** päivittäminen suositeltavaa mahdollisimman pian ellei toisin mainita.
+
+
+### Beta-versiot ennen versiota 1.0.0
+
+Ennen versiota 1.0.0 Nettiniilon ohjelmistoversiot numeroitiin päivämäärän mukaan, aluksi muodossa VV.KK.PP ja sitten VVVV-KK-PP.
