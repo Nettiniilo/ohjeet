@@ -30,6 +30,43 @@ Ennen versiota 1.0.0 Nettiniilon ohjelmistoversiot numeroitiin päivämäärän 
 Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on alimpana kunkin version yhteydessä on listattu ne ominaisuudet, jotka ovat käyttäjän näkökulmasta muuttuneet jollain tavalla.
 
 <dl>
+<dt>v1.1.0 (29.4.2016)</dt>
+<dd>
+	<ul>
+		<li>Sekä {{ book.abitti.nicename }} että {{ book.netti.nicename | lower }}:
+			<ul>
+				<li>Nettiniilon materiaalinjaon kautta jaettuja ääni- ja videotiedostoja voi nyt kelata.</li>
+				<li>Nettiniilon muodostaman WLAN-verkon taajuuden/kanavan manuaalivalinta mahdolliseksi.
+					<ul>
+						<li>Nettiniilon hallintapaneelissa on nyt mahdollista asettaa WLAN-taajuus käsin.</li>
+						<li>Tämä ominaisuus on hyödyllinen esim. silloin jos Nettiniilon verkko ja koulun olemassaoleva WLAN-verkko sattuvat "päällekkäin". Todennäköisimmin ette kuitenkaan tarvitse muuttaa tätä pois automaattiasetuksesta.</li>
+					</ul>
+				</li>
+				<li>Nettiniilon materiaalinjaon ulkoasua parannettu.</li>
+				<li>Pieniä hallintapaneelin käyttöliittymäparannuksia.</li>
+			</ul>
+		</li>
+		<li>Nettimoodi:
+			<ul>
+				<li>Parannus {{ book.netti.nicename | lower }}ssa Nettiniilon tarjoamaan WLAN-verkkoon liittymisen jälkeisessä nimirekisteröinnissä.
+					<ul>
+						<li>Käyttäjät ovat raportoineet, että {{ book.netti.nicename | lower }}ssa nimirekisteröintiin pääsy ja rekisteröitymisnapin painalluksen jälkeinen toiminta ovat tahmanneet.</li>
+						<li>Syy ongelmaan on selvitetty ja tämän päivityksen pitäisi korjata ongelman.</li>
+					</ul>
+				</li>
+				<li>Lisätty tuki 4G-mokkuloille (ainakin <a href="https://www.google.com/search?q=huawei+e3372&amp;tbm=isch">Huawei E3372</a>).</li>
+				<li>Nettiyhteyden jako Android-kännykästä USB-johdolla Nettiniiloon.
+					<ul>
+						<li>Testattu Android 4.4 ja Android 5.1 -kännyköillä.</li>
+						<li>Liitä kännykkä USB-johdolla Nettiniilon USB-porttiin ja aseta kännykän asetuksista nettiyhteyden jakaminen USB:n kautta päälle.</li>
+						<li>iPhone: ei toimi (eikä tod.näk. tulevaisuudessakaan toimi) johtuen Applen epästandardista "iTunes vaaditaan" -tavasta toteuttaa asia.</li>
+						<li>Windows Phone: pari vuotta vanhalla Lumialla netin jako USB:n kautta ei toiminut (tai ainakaan käyttöliittymästä/asetuksista ei löytynyt tarvittavaa valintaa).</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</dd>
 <dt>v1.0.1 (5.11.2015)</dt>
 <dd>
 	<ul>
