@@ -1,7 +1,8 @@
 {
 	"gitbook": "2.4.x",
 	"title": "Nettiniilo-ohjeet",
-	"description": "",
+	"author": "Nettiniilo Oy / Janne Cederberg",
+	"description": "Nettiniilo-laitteet käyttöohjeet. Nettiniilo on Ylioppilastutkintolautakunnan Abitti-järjestelmän käytön avuksi kurssikokeisiin tarkoitettu laite/'kaapelinkorvaaja'. Abitti-järjestelmän kanssa käytön lisäksi Nettiniilolla on vaihtoehtoisesti mahdollista rajata opiskelijoiden Internet-käyttöä myös BYOD-tilanteessa opettaja- ja oppituntikohtaisesti.",
 	"language": "fi",
 	"structure": {},
 	"links": {
@@ -12,7 +13,7 @@
 			"weibo": null
 		}
 	},
-	"plugins": ["anchors", "disqus", "ga", "image-captions", "addcssjs", "expandable-chapters", "toc", "mobile-hide-menu"],
+	"plugins": ["anchors", "disqus", "ga", "image-captions", "expandable-chapters", "toc", "mobile-hide-menu"],
 	"pluginsConfig": {
 		"fontSettings": {
 			"theme": "sepia"
@@ -26,10 +27,10 @@
 		"image-captions": {
 			"caption": "Kuva: _CAPTION_",
 			"align": "left"
-		},
-		"addcssjs": {
-			"css": ["css/custom.css"]
 		}
+	},
+	"styles": {
+		"website": "css/custom.css"
 	},
 	"variables": {
 		"abitti": {
@@ -56,5 +57,12 @@
 			"issuer": "Nettiniilo Oy (Y-tunnus: <a href='https://tietopalvelu.ytj.fi/yritystiedot.aspx?yavain=2599364&tarkiste=B20BC7668D7049716D9C81AD3099E8E3B3EC0AA9'>2730021-4</a>)",
 			"declaration": "https://nettiniilo.fi/files/Nettiniilo-DoC.pdf"
 		}
+	},
+	"pdf": {
+		"pageNumbers": true,
+		"fontSize": 12,
+		"paperSize": "a4",
+		"headerTemplate": "Header of the PDF with _TITLE_",
+        "footerTemplate": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_."
 	}
 }
