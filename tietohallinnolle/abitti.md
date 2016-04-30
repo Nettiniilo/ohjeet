@@ -1,5 +1,7 @@
 # Nettiniilon tietohallinnolle: *{{ book.abitti.nicename }}*
 
+<!-- toc -->
+
 ## Yleistä Nettiniilon *{{ book.abitti.nicename }}*sta
 
 Nettiniilon *{{ book.abitti.nicename }}* on tarkoitettu käytettäväksi oppilaitoksen arjessa ja esimerkiksi kurssikokeissa yhdessä YTL:n [Abitti-järjestelmän](http://www.abitti.fi/) kanssa.

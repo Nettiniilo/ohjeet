@@ -1,5 +1,7 @@
 # Nettiniilon hallinta (*{{ book.abitti.nicename }}*)
 
+<!-- toc -->
+
 ## Kirjautuminen Nettiniiloon
 
 Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.abitti.nicename }}*in, käynnistänyt Abitti-koetilapalvelimen ja liittänyt koetilapalvelimen ethernet-johdolla Nettiniilon PoE LAN -porttiin, voit jatkaa seuraavaan vaiheeseen eli kirjautua sisään Nettiniilon hallintapaneeliin Abitti-koetilapalvelimelta:

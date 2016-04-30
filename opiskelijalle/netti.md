@@ -1,5 +1,7 @@
 # Nettiniilo opiskelijalle: *{{ book.netti.nicename | lower }}*
 
+<!-- toc -->
+
 Tämä osio käsittelee asioita, jotka opiskelijan on hyvä tietää käyttäessään Nettiniiloa *{{ book.netti.nicename | lower }}*ssa. Koska opiskelijat eivät varmaankaan oma-aloitteisesti lue näitä ohjeita, on opettajan hyvä lukea nämä ohjeet ja ohjeistaa opiskelijoitaan niiden mukaisesti.
 
 ## Nettiniilon langattomaan verkkoon liittyminen

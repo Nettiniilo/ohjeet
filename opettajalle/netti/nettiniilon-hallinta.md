@@ -1,5 +1,7 @@
 # Nettiniilon hallinta (*{{ book.netti.nicename | lower }}*)
 
+<!-- toc -->
+
 ## Hallintapaneeliin kirjautuminen
 
 Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.netti.nicename | lower }}*in ja liittänyt koneesi ethernet-johdolla Nettiniilon PoE LAN -porttiin, voit jatkaa seuraavaan vaiheeseen eli kirjautua sisään Nettiniilon hallintapaneeliin:

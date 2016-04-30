@@ -1,5 +1,7 @@
 # Nettiniilo tietohallinnolle: yleistä
 
+<!-- toc -->
+
 Tämä osio sisältää ensisijaisesti teknisemmin orientoituneille henkilöille kuten koulun IT-vastaaville ja tietohallintohenkilöstölle suunnattua tietoa ja ohjeita.
 
 ## Nettiniilon tavoitteet

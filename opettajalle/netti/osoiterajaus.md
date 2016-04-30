@@ -1,4 +1,4 @@
-# Nettiniilon {{ book.netti.nicename | lower }}n osoiterajauksen lisäohjeet
+# {{ book.netti.nicename }}n osoiterajauksen lisäohjeet
 
 Tällä sivulla on listattuna mitä verkko-osoitteita on sallittava, jotta tietyt verkkopalvelut toimivat oikein. Nämä lisävaatimukset koskevat lähinnä sisäänkirjautumista ja/tai teknisesti vaativampia sisältömuotoja kuten videoita sisältäviä verkkopalveluita.
 

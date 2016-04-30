@@ -1,5 +1,7 @@
 # Laitteiden käynnistäminen (*{{ book.abitti.nicename }}*)
 
+<!-- toc -->
+
 Jotta Abitti-järjestelmää voidaan käyttää, täytyy käynnistää Abitti-palvelin sekä opiskelijoiden koneet Abitti-käynnistysmuistitikuilta. Lisäksi täytyy käynnistää Nettiniilo ja varmistaa että se on *{{ book.abitti.nicename }}*ssa / asettaa Nettiniilo *{{ book.abitti.nicename }}*in.
 
 Näissä ohjeissa ei käsitellä opiskelijoiden koneiden käynnistämistä Abitti-järjestelmään.

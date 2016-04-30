@@ -1,5 +1,7 @@
 # Laitteiden käynnistäminen (*{{ book.netti.nicename | lower }}*)
 
+<!-- toc -->
+
 ## Nettiniilon käynnistäminen
 
 Ottaaksesi Nettiniilon käyttöön *{{ book.netti.nicename | lower }}*ssa, toimi seuraavasti:

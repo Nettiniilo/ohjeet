@@ -1,8 +1,10 @@
+# Ongelmatilanteita ja ratkaisuehdotuksia
+
+<!-- toc -->
+
 <style>
 td { vertical-align: top; }
 </style>
-
-# Ongelmatilanteita ja ratkaisuehdotuksia
 
 ## Yleiset
 

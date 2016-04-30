@@ -1,5 +1,7 @@
 # Nettiniilon tarjoamat lisämahdollisuudet
 
+<!-- toc -->
+
 Abitti-järjestelmän kanssa käytettäessä Nettiniilo toimii minimissään *"kaapelinkorvaajana"*. Perustoiminnallisuuden lisäksi Nettiniilo tarjoaa kuitenkin seuraavia lisämahdollisuuksia Abitti-käyttöä monipuolistamaan.
 
 ## Tiedostojenjako

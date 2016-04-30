@@ -1,5 +1,7 @@
 # Nettiniilo tietohallinnolle: *{{ book.netti.nicename | lower }}*
 
+<!-- toc -->
+
 ## {{ book.netti.nicename }}n tavoite
 
 Nettiniilon *{{ book.netti.nicename | lower }}* mahdollistaa opettaja- ja oppituntikohtaisen Internet-yhteyden rajaamisen niin, että opettaja voi sallia opiskelijoille pääsyn esimerkiksi vain valitsemaansa sähköiseen oppimisympäristöön tai koepalveluun ja mahdollisesti joihin lähdeainestoksi käyttöön haluamiinsa verkkopalveluihin kuten uutissivustoihin tai vastaaviin.

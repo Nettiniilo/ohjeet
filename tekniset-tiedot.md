@@ -1,5 +1,7 @@
 # Tekniset tiedot
 
+<!-- toc -->
+
 ## Laitteisto- ja protokollatiedot
 
 | Aihe         | Tieto |

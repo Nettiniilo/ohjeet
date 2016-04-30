@@ -12,7 +12,7 @@
 			"weibo": null
 		}
 	},
-	"plugins": ["anchors", "disqus", "ga", "image-captions", "addcssjs", "expandable-chapters", "mobile-hide-menu"],
+	"plugins": ["anchors", "disqus", "ga", "image-captions", "addcssjs", "expandable-chapters", "toc", "mobile-hide-menu"],
 	"pluginsConfig": {
 		"fontSettings": {
 			"theme": "sepia"

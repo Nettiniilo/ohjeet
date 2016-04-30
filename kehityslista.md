@@ -1,5 +1,7 @@
 # Tiedossa olevia Nettiniilon kehityskohtia
 
+<!-- toc -->
+
 Tälle sivulle on listattu tiedossa olevia Nettiniiloon liittyviä kehitys- tai ongelmakohtia. Aiheet on jaoteltu mahdollisesti korjattaviin ja niihin, joita ei aiota tai voida Nettiniilosta riippumattomista syistä korjata.
 
 ## Tehdyt korjaukset
