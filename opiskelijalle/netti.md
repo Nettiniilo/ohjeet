@@ -1,6 +1,6 @@
-# Nettiniilo opiskelijalle: *{{ book.netti.nicename }}*
+# Nettiniilo opiskelijalle: *{{ book.netti.nicename | lower }}*
 
-Tämä osio käsittelee asioita, jotka opiskelijan on hyvä tietää käyttäessään Nettiniiloa *{{ book.netti.nicename }}*ssa. Koska opiskelijat eivät varmaankaan oma-aloitteisesti lue näitä ohjeita, on opettajan hyvä lukea nämä ohjeet ja ohjeistaa opiskelijoitaan niiden mukaisesti.
+Tämä osio käsittelee asioita, jotka opiskelijan on hyvä tietää käyttäessään Nettiniiloa *{{ book.netti.nicename | lower }}*ssa. Koska opiskelijat eivät varmaankaan oma-aloitteisesti lue näitä ohjeita, on opettajan hyvä lukea nämä ohjeet ja ohjeistaa opiskelijoitaan niiden mukaisesti.
 
 ## Nettiniilon langattomaan verkkoon liittyminen
 
@@ -44,6 +44,6 @@ Päästäksesi käyttämään Internet-yhteyttä täytyy sinun rekisteröityä s
 Kun olet nyt rekisteröitynyt Nettiniiloon nimelläsi, pääset käyttämään Internet-yhteyttä Nettiniilon kautta.
 
 <!--
-* Jos koulun koneilla käytössä proxy- eli välityspalvelin, on se otettava koneelta pois päältä, jotta Nettiniilon *{{ book.netti.nicename }}*a voi käyttää
+* Jos koulun koneilla käytössä proxy- eli välityspalvelin, on se otettava koneelta pois päältä, jotta Nettiniilon *{{ book.netti.nicename | lower }}*a voi käyttää
 * Ohjeista rekisteröityminen aina verkkoon kirjautumisen jälkeen 192.168.1.1
 -->

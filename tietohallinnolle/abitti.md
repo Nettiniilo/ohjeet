@@ -9,7 +9,7 @@ Nettiniilon *{{ book.abitti.nicename }}* on tarkoitettu käytettäväksi oppilai
 
 ## *{{ book.abitti.nicename }}*ssa Nettiniilo toimii kytkimenä
 
-Olleessaan *{{ book.abitti.nicename }}*ssa Nettiniilo on ethernet-verkon näkökulmasta kytkin (*{{ book.netti.nicename }}*ssa Nettiniilo on reititin). Toisin sanoen, Nettiniilo ei *{{ book.abitti.nicename }}*ssa ollessaan toimi DHCP-palvelimena eikä siis jaa IP-osoitteita siihen langattomasti tai ethernet-kaapelilla liitetyille laitteille. Päinvastoin Nettiniilo olettaa *{{ book.abitti.nicename }}*ssa, että samassa verkossa on joku DHCP-palvelimen roolia toimittava laite. Abitti-koetilapalvelin on YTL:n toimesta ohjelmoitu toimimaan DHCP-palvelimena.
+Olleessaan *{{ book.abitti.nicename }}*ssa Nettiniilo on ethernet-verkon näkökulmasta kytkin (*{{ book.netti.nicename | lower }}*ssa Nettiniilo on reititin). Toisin sanoen, Nettiniilo ei *{{ book.abitti.nicename }}*ssa ollessaan toimi DHCP-palvelimena eikä siis jaa IP-osoitteita siihen langattomasti tai ethernet-kaapelilla liitetyille laitteille. Päinvastoin Nettiniilo olettaa *{{ book.abitti.nicename }}*ssa, että samassa verkossa on joku DHCP-palvelimen roolia toimittava laite. Abitti-koetilapalvelin on YTL:n toimesta ohjelmoitu toimimaan DHCP-palvelimena.
 
 
 

@@ -1,8 +1,8 @@
-# Nettiniilon hallinta (*{{ book.netti.nicename }}*)
+# Nettiniilon hallinta (*{{ book.netti.nicename | lower }}*)
 
 ## Hallintapaneeliin kirjautuminen
 
-Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.netti.nicename }}*in ja liittänyt koneesi ethernet-johdolla Nettiniilon PoE LAN -porttiin, voit jatkaa seuraavaan vaiheeseen eli kirjautua sisään Nettiniilon hallintapaneeliin:
+Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.netti.nicename | lower }}*in ja liittänyt koneesi ethernet-johdolla Nettiniilon PoE LAN -porttiin, voit jatkaa seuraavaan vaiheeseen eli kirjautua sisään Nettiniilon hallintapaneeliin:
 
 1. Avaa Chrome- tai Firefox-selaimella uusi välilehti painamalla `Ctrl+T` (Apple: `Command+T`)
 2. Mene selainikkunassa seuraavaan osoitteeseen: <{{ book.netti.urls.admin }}>
@@ -52,7 +52,7 @@ VAROITUS: Mikäli Internet-yhteys halutaan muodostaa liittämällä Nettiniilo o
 
 Kun olet saanut luvan liittää Nettiniilon oppilaitoksenne Internet-yhteyteen (seinäliittimeen) ethernet-kaapelilla, toimi seuraavasti:
 
-1. Varmista, että Nettiniilo on käynnistetty ja *{{ book.netti.nicename }}*ssa.
+1. Varmista, että Nettiniilo on käynnistetty ja *{{ book.netti.nicename | lower }}*ssa.
 2. Yhdistä ethernet-kaapeli Nettiniilon *WAN/LAN-portista* todennäköisimmin seinässä olevaan ethernet-pistokeeseen.
 	- VAROITUS: Älä kytke ethernet-johtoa Nettiniilon *PoE LAN -portista* seinään!
 
@@ -92,7 +92,7 @@ Varmista, että Nettiniilo on liitettynä Internet-yhteyteen joko WAN/LAN-portin
 4. Voit sallia useampia verkkopalveluita listaamalla tarvittavat domainit, yksi per rivi.
 5. Kun olet syöttänyt haluamasi domainit ja niihin [lisäohjeissa](osoiterajaus.html) mahdollisesti kehotetut lisädomainit, paina *Aloita rajaus* -nappia.
 
-![Sallittujen domainien asettaminen Nettiniilon hallintapaneelissa {{ book.netti.nicename}}ssa.](/images/nettimoodi_sallitut-domainit.png)
+![Sallittujen domainien asettaminen Nettiniilon hallintapaneelissa {{ book.netti.nicename | lower}}ssa.](/images/nettimoodi_sallitut-domainit.png)
 
 
 
@@ -112,6 +112,6 @@ Ohjeista opiskelijoita seuraavasti:
 	- Mikäli Nettiniilosta on Internet-yhteys eteenpäin, on opiskelijoilla nyt pääsy Internetiin.
 
 <!--
-* Jos koulun koneilla käytössä proxy- eli välityspalvelin, on se otettava koneelta pois päältä, jotta Nettiniilon *{{ book.netti.nicename }}*a voi käyttää
+* Jos koulun koneilla käytössä proxy- eli välityspalvelin, on se otettava koneelta pois päältä, jotta Nettiniilon *{{ book.netti.nicename | lower }}*a voi käyttää
 * Ohjeista hallintapaneeliin meno aina <{{ book.netti.urls.admin }}>, ei http://nettiniilo.lan
 -->

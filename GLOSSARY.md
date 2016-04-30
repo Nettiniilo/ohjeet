@@ -27,7 +27,7 @@ Kytkin (engl. "switch") on tietoliikennettä välittävä verkkolaite. Kytkimiä
 
 # {{ book.netti.nicename }}
 
-Nettiniilon {{ book.netti.nicename }} mahdollistaa tarvittaessa rajoitetun Internet-yhteyden tarjoamisen oppilaille opettaja- ja oppituntikohtaisesti. Näin ollen on mahdollista pitää vaikkapa koe Internetin yli sähköisessä oppimisympäristössä kuitenkin ilman, että opiskelijoilla on pääsy muualle kuin opettajan määrittämille sivustoille.
+Nettiniilon {{ book.netti.nicename | lower }} mahdollistaa tarvittaessa rajoitetun Internet-yhteyden tarjoamisen oppilaille opettaja- ja oppituntikohtaisesti. Näin ollen on mahdollista pitää vaikkapa koe Internetin yli sähköisessä oppimisympäristössä kuitenkin ilman, että opiskelijoilla on pääsy muualle kuin opettajan määrittämille sivustoille.
 
 # PDF
 Laajasti käytetty tiedostomuoto katseltavaksi ja tulostettavaksi muttei ensisijaisesti muokattavaksi tarkoitetuille tiedostoille. PDF-tiedostot voivat sisältää tekstin ja kuvien lisäksi erikoistapauksessa jopa ääntä ja videota. PDF-tiedostoja voi luoda esimerkiksi tallentamalla Microsoft Office -ohjelmista Tallenna nimellä -toiminnon kautta PDF-muotoon.
@@ -63,7 +63,7 @@ Universal Serial Bus - standardi, jota käytetään massamuistilaitteiden kuten 
 Vektorikuvat ovat kuvia, joissa kuvan informaatio tallennetaan matemaattisina lausekkeina. Vektorikuvia käytetään yleensä esimerkiksi logojen ja diagrammien master-versioissa vaikkakin Internet-selaimet ovat vasta hiljattain alkaneet tukea yhtä vektorimuodoista (SVG).
 
 # Välityspalvelin
-Välitys- eli proxy-palvelin on palvelin, jollaista joskus käytetään koulujen verkoissa. Mikäli välityspalvelin on koulun koneilla oletusarvoisesti käytössä, täytyy se ottaa pois käytöstä mikäli halutaan käyttää Nettiniiloa {{ book.netti.nicename }}ssa koulun koneilla.
+Välitys- eli proxy-palvelin on palvelin, jollaista joskus käytetään koulujen verkoissa. Mikäli välityspalvelin on koulun koneilla oletusarvoisesti käytössä, täytyy se ottaa pois käytöstä mikäli halutaan käyttää Nettiniiloa {{ book.netti.nicename | lower }}ssa koulun koneilla.
 
 # WiFi
 Ks. WLAN.

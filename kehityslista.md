@@ -18,7 +18,7 @@ Seuraavat asiat ovat joko tehtävälistalla tai niiden toteuttamisen mahdollisuu
 
 |Opet | Opisk | IT | Moodi | Kuvaus           | Status  |
 |:---:|:-----:|:--:|-------|------------------|---------|
-| x   | x     |    | Netti | Jos *{{ book.netti.nicename }}*ssa ei ole yhteyttä Internetiin, ei uudelleenohjaus rekisteröintisivulle toimi vaan käyttäjä joutuu menemään <{{ book.netti.urls.landing }}>. | tutkitaan |
+| x   | x     |    | Netti | Jos *{{ book.netti.nicename | lower }}*ssa ei ole yhteyttä Internetiin, ei uudelleenohjaus rekisteröintisivulle toimi vaan käyttäjä joutuu menemään <{{ book.netti.urls.landing }}>. | tutkitaan |
 | x   | x     |    | Netti | Nettiyhteysrajauksen ollessa käytössä iPadeilla (ja ehkä myös iPhoneilla) Safari-selain ei toimi oikein. Käytä Chrome-selainta. | tutkitaan |
 |     |       | x  | Netti | Staattisen IP-osoitteen asettaminen Nettiniilon WAN-puolelle. | todo |
 |     |       | x  | Netti | Nettiniilon tarjoaman WLAN-verkon käyttämän kanavan manuaalivalinta | todo |

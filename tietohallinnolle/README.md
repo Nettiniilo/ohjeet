@@ -20,9 +20,9 @@ Nettiniilossa on edellä kuvattuihin tavoitteisiin liittyen kaksi toisensa poiss
 
 ### Moodien nimet ja käyttökontekstit
 
-Nettiniilon käyttömoodit ovat nimeltään {{ book.abitti.nicename }} ja {{ book.netti.nicename }}. {{ book.abitti.nicename }} on nimensä mukaisesti tarkoitettu käytettäväksi yhdessä YTL:n Abitti-järjestelmän kanssa. {{ book.netti.nicename }}a puolestaan käytetään silloin kun *ei käytetä* Abitti-järjestelmää.
+Nettiniilon käyttömoodit ovat nimeltään {{ book.abitti.nicename }} ja {{ book.netti.nicename | lower }}. {{ book.abitti.nicename }} on nimensä mukaisesti tarkoitettu käytettäväksi yhdessä YTL:n Abitti-järjestelmän kanssa. {{ book.netti.nicename }}a puolestaan käytetään silloin kun *ei käytetä* Abitti-järjestelmää.
 
-Nettiniilon kautta voidiaan sekä {{ book.abtti.nicename }}ssa että {{ book.netti.nicename }}ssa jakaa opiskelijoille tiedostoja Nettiniiloon kytketyltä USB-massamuistilta. {{ book.netti.nicename }}ssa voidaan lisäksi rajata opiskelijoiden Internet-yhteyttä ja seurata ketkä opiskelijat ovat liittyneet päätelaitteillaan Nettiniilon tarjoamaan langattomaan verkkoon.
+Nettiniilon kautta voidiaan sekä {{ book.abtti.nicename }}ssa että {{ book.netti.nicename | lower }}ssa jakaa opiskelijoille tiedostoja Nettiniiloon kytketyltä USB-massamuistilta. {{ book.netti.nicename }}ssa voidaan lisäksi rajata opiskelijoiden Internet-yhteyttä ja seurata ketkä opiskelijat ovat liittyneet päätelaitteillaan Nettiniilon tarjoamaan langattomaan verkkoon.
 
 ### Teknistä tietoa moodeista
 

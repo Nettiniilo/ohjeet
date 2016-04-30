@@ -1,10 +1,10 @@
-# Nettiniilon {{ book.netti.nicename }}n osoiterajauksen lisäohjeet
+# Nettiniilon {{ book.netti.nicename | lower }}n osoiterajauksen lisäohjeet
 
 Tällä sivulla on listattuna mitä verkko-osoitteita on sallittava, jotta tietyt verkkopalvelut toimivat oikein. Nämä lisävaatimukset koskevat lähinnä sisäänkirjautumista ja/tai teknisesti vaativampia sisältömuotoja kuten videoita sisältäviä verkkopalveluita.
 
 Jos joku tarvitsemasi palvelu ei tunnu toimivan oikein, ilmoittaisitko tästä <a href="mailto:nettiniilo@opetus.tv">nettiniilo@opetus.tv</a>.
 
-Salliaksesi {{ book.netti.nicename }}n rajatusssa netinkäyttötilassa seuraavat palvelut, aseta sallittuihin osoitteisiin listatut:
+Salliaksesi {{ book.netti.nicename | lower }}n rajatusssa netinkäyttötilassa seuraavat palvelut, aseta sallittuihin osoitteisiin listatut:
 
 ## Areena.yle.fi
 
