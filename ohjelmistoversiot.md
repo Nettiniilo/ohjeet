@@ -46,7 +46,7 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 				<li>Pieniä hallintapaneelin käyttöliittymäparannuksia.</li>
 			</ul>
 		</li>
-		<li>Nettimoodi:
+		<li>{{ book.netti.nicename }}:
 			<ul>
 				<li>Parannus {{ book.netti.nicename | lower }}ssa Nettiniilon tarjoamaan WLAN-verkkoon liittymisen jälkeisessä nimirekisteröinnissä.
 					<ul>
@@ -54,7 +54,12 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 						<li>Syy ongelmaan on selvitetty ja tämän päivityksen pitäisi korjata ongelman.</li>
 					</ul>
 				</li>
-				<li>Lisätty tuki 4G-mokkuloille (ainakin <a href="https://www.google.com/search?q=huawei+e3372&amp;tbm=isch">Huawei E3372</a>).</li>
+				<li>Lisätty tuki 4G-mokkuloille (ainakin <a href="https://www.google.com/search?q=huawei+e3372&amp;tbm=isch">Huawei E3372</a>).
+					<ul>
+						<li>Toimii yksinkertaisesti kytkemällä mokkula Nettiniilon USB-porttiin.</li>
+						<li>Aiemmin ollut tuki 3G-mokkuloille on voimassa edelleen; 3G-mokkulaa käytettäessä PIN-koodi ja APN-arvo täytyy asettaa Nettiniilon hallintapaneelissa {{ book.netti.nicename | lower }}ssa.</li>
+					</ul>
+				</li>
 				<li>Nettiyhteyden jako Android-kännykästä USB-johdolla Nettiniiloon.
 					<ul>
 						<li>Testattu Android 4.4 ja Android 5.1 -kännyköillä.</li>
@@ -73,11 +78,11 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 		<li><em>HUOM! Tätä päivitystä ei tarvitse asentaa mikäli</em>
 			<ul>
 				<li>käytätte Nettiniiloa vain Abitti-moodissa tai</li>
-				<li>ette ole huomanneet nettimoodin osoiterajauksissa ongelmaa, jossa hallintapaneelin mukaan domain-rajauksia ei ole päällä, mutta käytännössä vaikuttaisi siltä, että osoiterajauksia on päällä.</li>
+				<li>ette ole huomanneet {{ book.netti.nicename | lower }}n osoiterajauksissa ongelmaa, jossa hallintapaneelin mukaan domain-rajauksia ei ole päällä, mutta käytännössä vaikuttaisi siltä, että osoiterajauksia on päällä.</li>
 			</ul>
 		</li>
-		<li>Nettimoodissa verkkoon nimellä rekisteröidyttäessä rekisteröintinapin teksti muutettu muodosta <em>Käytä nettiä</em> muotoon <em>Rekisteröidy</em>.</li>
-		<li>Varmistus ettei nettimoodin osoiterajaus jää päälle Nettiniilon uudelleenkäynnistyksen yhteydessä.</li>
+		<li>{{ book.netti.nicename }}ssa verkkoon nimellä rekisteröidyttäessä rekisteröintinapin teksti muutettu muodosta <em>Käytä nettiä</em> muotoon <em>Rekisteröidy</em>.</li>
+		<li>Varmistus ettei {{ book.netti.nicename | lower }}n osoiterajaus jää päälle Nettiniilon uudelleenkäynnistyksen yhteydessä.</li>
 		<li>Nettiniilon hallintapaneelin yksiriviset tietokentät näyttävät epäkelvot (esim. liian lyhyet) syötearvot punaisella.</li>
 		<li>Pyritään estämään selainta tallettamasta hallintapaneelin HTML-koodia omaan välimuistiinsa. Tällä on merkitystä lähinnä Nettiniilon ohjelmistoa päivitettäessä niin, että vanha versionumero jää pienemmällä todennäköisyydellä näkyviin hallintapaneelin alareunaan päivityksen jälkeen v1.0.1 eteenpäin päivitettäessä.</li>
 		<li>Hallintapaneelin etusivun Nettiniilo-logo pienemmäksi.</li>
@@ -95,7 +100,7 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 <dt>v2015-07-28 beta (28.7.2015)</dt>
 <dd>
 	<ul>
-		<li>Materiaalinjako siirretty *{{ book.netti.nicename }}*ssa portista 80 porttiin 8888</li>
+		<li>Materiaalinjako siirretty *{{ book.netti.nicename | lower }}*ssa portista 80 porttiin 8888</li>
 		<li>Käyttäjälle annettavia tietoja/ohjeita parannettu estetyn domainin tapauksessa</li>
 	</ul>
 </dd>
@@ -140,7 +145,7 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 <dd>
 	<ul>
 		<li>*{{ book.netti.nicename }}*n rekisteröintisivun ulkoasua ja toimintaa parannettu</li>
-		<li>Laitteen NetBIOS-/host-nimen ja IP-osoitteen näyttö *{{ book.netti.nicename }}*ssa hallintapaneelin Status-näkymässä kun oppilas ei vielä ole rekisteröitynyt</li>
+		<li>Laitteen NetBIOS-/host-nimen ja IP-osoitteen näyttö *{{ book.netti.nicename | lower }}*ssa hallintapaneelin Status-näkymässä kun oppilas ei vielä ole rekisteröitynyt</li>
 		<li>Päivitystoiminnon korjaus</li>
 		<li>Hallintapaneelissa WLAN- ja nettirajaussyötteiden validointia parannettu</li>
 	</ul>
