@@ -17,6 +17,7 @@
 - [Tietohallinnolle: yleistä](tietohallinnolle/README.md)
 	- [{{ book.abitti.nicename }} tietohallinnolle](tietohallinnolle/abitti.md)
 	- [{{ book.netti.nicename }} tietohallinnolle](tietohallinnolle/netti.md)
+	- [Ohjelmistopäivitys ja resetointi](tietohallinnolle/paivittaminen.md)
 - [Ongelmia ja ratkaisuja](usein-kysyttya.md)
 - [Kehityslista](kehityslista.md)
 - [Ohjelmistoversiot](ohjelmistoversiot.md)

@@ -14,24 +14,6 @@ Nettiniilon *{{ book.abitti.nicename }}* on tarkoitettu käytettäväksi oppilai
 Olleessaan *{{ book.abitti.nicename }}*ssa Nettiniilo on ethernet-verkon näkökulmasta kytkin (*{{ book.netti.nicename | lower }}*ssa Nettiniilo on reititin). Toisin sanoen, Nettiniilo ei *{{ book.abitti.nicename }}*ssa ollessaan toimi DHCP-palvelimena eikä siis jaa IP-osoitteita siihen langattomasti tai ethernet-kaapelilla liitetyille laitteille. Päinvastoin Nettiniilo olettaa *{{ book.abitti.nicename }}*ssa, että samassa verkossa on joku DHCP-palvelimen roolia toimittava laite. Abitti-koetilapalvelin on YTL:n toimesta ohjelmoitu toimimaan DHCP-palvelimena.
 
 
-
-## Nettiniilon firmwaren päivittäminen
-
-1. Lataa Nettiniilon zip-muotoinen päivitystiedosto sähköpostitse valmistajalta saamastasi latauslinkistä.
-2. Pura päivitystiedoston sisältö jonkun muistitikun juurikansioon. Muistitikulle ilmestyvät tällöin tiedostot <kbd>nettiniilo.bin</kbd> ja <kbd>nettiniilo.bin.md5</kbd>.
-3. Kiinnitä muistitikku Nettiniilon USB-porttiin ja odota pari sekuntia.
-4. Paina alla olevaa *Päivitä ohjelmisto* -nappia.
-
-## Nettiniilon palauttaminen tehdasasetuksiin
-
-Nettiniilo on mahdollista palauttaa viimeisimmän ohjelmistopäivityksen mukaiseen tehdasasetustilaan. Tehdasasetusten palauttaminen asettaa kaikki salasanat ja muut asetukset oletusarvoihinsa.
-
-Tehdasasetusten palauttaminen tapahtuu seuraavasti:
-
-1. Käynnistä Nettiniilo ja odota, että WLAN-valo syttyy.
-2. Pidä Nettiniilon pohjassa oleva `Reset`-näppäin pohjassa noin 8 sekunnin ajan.
-3. Nettiniilo käynnistyy nyt uudestaan ja tehdasasetukset ovat palautuneet.
-
 ## Mahdollisuus hybridiverkkoon
 
 Oletusarvoisesti Nettiniiloa käytettäessä kaikki opiskelijat liittyvät Nettiniilon muodostamaan langattomaan verkkoon ja sitä kautta Abitti-koetilapalvelimeen. Nettiniilon avulla on kuitenkin mahdollista muodostaa myös hybridiverkko, jossa osa opiskelijoista liittyy verkkoon langattomasti ja osa ethernet-kaapelien kautta.

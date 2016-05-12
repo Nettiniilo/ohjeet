@@ -51,9 +51,17 @@ Rasterikuvat ovat kuvia, joissa kuvan informaatio tallennetaan kuvapisteittäin 
 
 Reititin on verkkolaite, jota käytettäessä muodostuu vertauskuvallisesti samanlainen tilanne kuin vaikkapa suuren yrityksen toimitusjohtajaa tavoiteltaessa: sihteeri vastaa toimitusjohtajan puolesta, kuuntelee yhteydenottajan asian, välittää kysymyksen eteenpäin toimitusjohtajalle "omissa nimissään" ja vastauksen saatuaan välittää sen kysyjälle. Reititin poikkeaa toimintaperiaatteeltaan kytkimestä. Kotona sinulla on käytössäsi paljon todennäköisimmin reitin kuin kytkin.
 
+# Resetointi
+
+Resetointi tarkoittaa laitteen asetusten palauttamista viimeisimmän ohjelmistopäivityksen mukaisiin oletusarvoihin. Resetoinnin/tehdaspalautuksen tekeminen palauttaa mm. kaikki salasanat oletusarvoihinsa.
+
 # SVG
 
 Scalable Vector Graphics on vektorigrafiikkatiedostomuoto. Internet-selaimet ovat viime vuosina alkaneet tukea SVG-muotoa niin, että esimmerkiksi logot ja diagrammit joiden master-versiot perinteisesti ovat vektorimuotoisia voidaan myös esittää verkkosivuilla vektorimuodossa. Aiemmin ainoa vaihtoehto oli muuntaa vektoritiedostot rasterimuotoon kuten PNG-tiedostoiksi verkkosivuilla käyttöä varten.
+
+# Tehdaspalautus
+
+ks. resetointi
 
 # USB
 Universal Serial Bus - standardi, jota käytetään massamuistilaitteiden kuten USB-muistitikkujen ja -kovalevyjen mutta toisaalta myös näppäimistöjen, hiirien ja muiden ohjauslaitteiden, äänilaitteiden, kameroiden jne. liittämiseksi tietokoneisiin.
