@@ -1,4 +1,3 @@
-Tämä terminologiahakemisto on vielä kesken!
 
 # {{ book.abitti.nicename }}
 Nettiniilo-laitteen nk. {{ book.abitti.nicename }} on tarkoitettu käytettäväksi yhdessä Ylioppilastutkintolautakunnan Abitti-kurssikoejärjestelmän kanssa. {{ book.abitti.nicename }}ssa ollessaan Nettiniilo toimiin WPS-valo palaa. Tietohallinnolle tiedoksi, että teknisesti Nettiniilo toimii {{ book.abitti.nicename }}ssa kytkimenä.
