@@ -15,14 +15,12 @@ Ideana on liittyä Nettiniilo-laitteen tarjoamaan langattomaan verkkoon kun opet
 3. Klikkaa opettajasi mainitseman verkon nimeä, esim. *NettiniiloX*
 4. Poista valinta kohdasta *Yhdistä automaattisesti* ja klikkaa *Yhdistä* ![Nettiniilon tarjoamaan langattomaan verkkoon liittyminen](/images/nettimoodi_wlan-liittyminen_win7-02.png)
 
-
-### Verkkoon liittyminen Windows 8 -koneella
-
-Tulossa...
-
 ### Verkkoon liittyminen Windows 10 -koneella
 
-Tulossa...
+1. Etsi oikealta alanurkasta ilmaisinalueelta langattoman verkon kuvake ("tähti ja kaaret") ![Tarjolla olevien langattomien verkkojen tarkastelu](/images/nettimoodi_wlan-liittyminen_win10-01.png)
+2. Klikkaa em. kuvaketta hiiren ykköspainikkeella (yleensä vasen painike)
+3. Klikkaa opettajasi mainitseman verkon nimeä, esim. *NettiniiloX*
+4. Poista valinta kohdasta *Yhdistä automaattisesti* ja klikkaa *Yhdistä* ![Nettiniilon tarjoamaan langattomaan verkkoon liittyminen](/images/nettimoodi_wlan-liittyminen_win10-03.png)
 
 ### Verkkoon liittyminen Apple-kannettavilla
 
@@ -30,9 +28,19 @@ Tulossa...
 
 ### Miksi *Yhdistä automaattisesti* -asetusta ei valita?
 
-*Yhdistä automaattisesti* -valinnan poistaminen tehdään seuraavasta syystä: mikäli ko. valinta jätettäisiin voimaan ja Nettiniilon tarjoaman langattoman verkon salasana myöhemmin muutetaan, mutta nimi säilyisi ennallaan ja olit aiemmin liittynyt samaan verkkoon, yrittäisi Windows tällöin liittyä muistettuun/tallennettuun langattomaan verkkoon samalla salasanalla kuin aiemmin ja kun vanha salasana ei enää kelpaakaan, toteaa Windows melko epäinformatiivisesti näin:
+#### Windows 7
 
-![Windowsin ilmoitus jos Nettiniilon salasana muutettu, mutta verkon nimi ennallaan](/images/nettimoodi_wlan-liittyminen_win7-salasanavirhe.png "Näin Windows 7 toteaa jos muistetun verkon salasana on muutettu")
+Mikäli liityt Windows 7 -koneella Nettiniilon tarjoamaan langattomaan verkkoon ja jätät *Yhdistä automaattisesti* -valinnan valituksi ja mikäli ko. verkon salasana myöhemmin muutetaan, mutta verkon nimi säilytetään ennallaan niin yrittäessäsi liittyä ko. verkkoon uudestaan yrittää Windows 7 tällöin käyttää muistettua/tallennettua salasanaa ja koska vanha salasana ei enää kelpaakaan, toteaa Windows 7 melko epäinformatiivisesti näin:
+
+![Windows 7 ilmoitus jos Nettiniilon salasana muutettu, mutta verkon nimi ennallaan](/images/nettimoodi_wlan-liittyminen_win7-salasanavirhe.png "Näin Windows 7 toteaa jos muistetun verkon salasana on muutettu")
+
+#### Windows 10
+
+Windows 10 vaikuttaisi olevan fiksumpi sikäli, että vaikka verkkoon liittyessään jättää *Yhdistä automaattisesti* -valinnan valituksi, osaa Windows 10 kysyä käyttäjältä langattoman verkon salasanaa uudestaan mikäli se on muuttunut:
+
+![Windows 10 osaa pyytää käyttäjää syöttämään muistetun verkon salasanan tarvittaessa uudestaan](/images/nettimoodi_wlan-liittyminen_win10-salasanamuutos.png "Windows 10 osaa pyytää käyttäjää syöttämään muistetun verkon salasanan tarvittaessa uudestaan")
+
+
 
 ## Etu- ja sukunimen syöttäminen
 
