@@ -4,6 +4,10 @@
 
 Tälle sivulle on listattu tiedossa olevia Nettiniiloon liittyviä kehitys- tai ongelmakohtia. Aiheet on jaoteltu mahdollisesti korjattaviin ja niihin, joita ei aiota tai voida Nettiniilosta riippumattomista syistä korjata.
 
+## Tämä ohjesivusto
+
+- Alasivujen aluissa olevissa sisällysluettelolinkeissä ääkkösiä sisältävät linkit eivät toimi tällä hetkellä.
+
 ## Tehdyt korjaukset
 
 Lista aiemmin tehtävälistalla olleista puutteista, jotka on korjattu. Versioviittaukset viittavat Nettiniilon ohjelmistoversioihin. Nettiniilossasi käytössä olevan ohjelmistoversion näet hallintapaneelin vasemmasta alanurkasta.
