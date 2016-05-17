@@ -1,4 +1,4 @@
-# Nettiniilo tietohallinnolle: yleistä
+# Nettiniilo ylläpitäjälle: yleistä
 
 <!-- toc -->
 

@@ -1,6 +1,6 @@
 
 # {{ book.abitti.nicename }}
-Nettiniilo-laitteen nk. {{ book.abitti.nicename }} on tarkoitettu käytettäväksi yhdessä Ylioppilastutkintolautakunnan Abitti-kurssikoejärjestelmän kanssa. {{ book.abitti.nicename }}ssa ollessaan Nettiniilo toimiin WPS-valo palaa. Tietohallinnolle tiedoksi, että teknisesti Nettiniilo toimii {{ book.abitti.nicename }}ssa kytkimenä.
+Nettiniilo-laitteen nk. {{ book.abitti.nicename }} on tarkoitettu käytettäväksi yhdessä Ylioppilastutkintolautakunnan Abitti-kurssikoejärjestelmän kanssa. {{ book.abitti.nicename }}ssa ollessaan Nettiniilo toimiin WPS-valo palaa. Ylläpitäjille/tietohallinnolle tiedoksi, että teknisesti Nettiniilo toimii {{ book.abitti.nicename }}ssa kytkimenä.
 
 # DHCP
 Dynamic Host Configuration Protocol on protokolla, jonka avulla verkon laitteille jaetaan IP-osoitteet näiden liittyessä tietoliikenneverkkoon. DHCP-protokollaa tarvitaan siihen, ettei verkkoon liitetyille laitteille tarvitse syöttää IP-osoiteasetuksia manuaalisesti. {{ book.abitti.nicename }}ssa Abitti-palvelin toimii verkon DHCP-palvelimena ja Nettiniilo kytkimenä. {{ book.netti.nicename }}ssa Nettiniilo toimii muodostettavan verkon reitittimenä ja DHCP-palvelimena.
