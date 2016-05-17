@@ -1,4 +1,4 @@
-# Nettiniilon tietohallinnolle: *{{ book.abitti.nicename }}*
+# Nettiniilo ylläpitäjälle: *{{ book.abitti.nicename }}*
 
 <!-- toc -->
 
