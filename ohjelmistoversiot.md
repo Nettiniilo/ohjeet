@@ -19,6 +19,7 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 						<li>Tämä ominaisuus on hyödyllinen esim. silloin jos Nettiniilon verkko ja koulun olemassaoleva WLAN-verkko sattuvat "päällekkäin". Todennäköisimmin ette kuitenkaan tarvitse muuttaa tätä pois automaattiasetuksesta.</li>
 					</ul>
 				</li>
+				<li>WPS-napin painalluksella vaihdetaan Nettiniilon käyttötapaa/-moodia {{ book.abitti.nicename }}n ja {{ book.netti.nicename | lower }}n välillä. Tämä päivitys korjaa virheen, jossa WPS-nappia useammin kuin kerran "sopivin väliajoin" painamalla Nettiniilon pystyi saamaan osittaiseen jumitilaan (ja Nettiniilon joutui <a href="/yllapitajalle/paivittaminen.html#nettiniilon-resetointi-eli-palauttaminen-tehdasasetuksiin">resetoimaan</a> pohjassa olevalla Reset-napilla).</li>
 				<li>Nettiniilon materiaalinjaon ulkoasua parannettu.</li>
 				<li>Pieniä hallintapaneelin käyttöliittymäparannuksia.</li>
 			</ul>
