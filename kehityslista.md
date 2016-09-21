@@ -17,19 +17,17 @@ Lista aiemmin tehtävälistalla olleista puutteista, jotka on korjattu. Versiovi
 | x   | x     |    | Abitti, Netti| Tiedostoja opiskelijoille jaettaessa tiedostonimet eivät saa tällä hetkellä sisältää ääkkösiä eivätkä lainausmerkkejä. Ääkkösten mahdollistaminen on tarpeen. | Toimii v1.1.0 alkaen |
 | x   | x     |    | Abitti, Netti| Nettiniilon materiaalinjaon kautta jaettujen video- ja äänitiedostojen kelaaminen ei onnistu. | Toimii v1.1.0 alkaen |
 | x   | x     |    | Netti | Opiskelijoiden on liityttävä Nettiniilon tarjoamaan langattomaan verkkoon noin yksi opiskelija per muutama sekunti. | Suorituskyvyssä oleellinen parannus v1.1.0 alkaen. |
+|     |       | x  | Netti | Nettiniilon tarjoaman WLAN-verkon käyttämän kanavan manuaalivalinta | Tarjolla v1.1.0 alkaen |
 
 ## Tehtävälistalla olevat
 
-Seuraavat asiat ovat joko tehtävälistalla tai niiden toteuttamisen mahdollisuutta tutkitaan. Listausjärjestys ei välttämättä implikoi prioriteettijärjestystä.
+Seuraavat asiat ovat joko tehtävälistalla tai niiden toteuttamisen mahdollisuutta tutkitaan. Listausjärjestys ei implikoi prioriteettijärjestystä.
 
 |Opet | Opisk | IT | Moodi | Kuvaus           | Status  |
 |:---:|:-----:|:--:|-------|------------------|---------|
 | x   | x     |    | Netti | Jos *{{ book.netti.nicename | lower }}*ssa ei ole yhteyttä Internetiin, ei uudelleenohjaus rekisteröintisivulle toimi vaan käyttäjä joutuu menemään <{{ book.netti.urls.landing }}>. | tutkitaan |
-| x   | x     |    | Netti | Nettiyhteysrajauksen ollessa käytössä iPadeilla (ja ehkä myös iPhoneilla) Safari-selain ei toimi oikein. Käytä Chrome-selainta. | tutkitaan |
 |     |       | x  | Netti | Staattisen IP-osoitteen asettaminen Nettiniilon WAN-puolelle. | todo |
-|     |       | x  | Netti | Nettiniilon tarjoaman WLAN-verkon käyttämän kanavan manuaalivalinta | todo |
 |     |       | x  | Netti | WAN-puolelle mahdollisuus asettaa http-proxy-palvelin. | tutkitaan |
-| x   | x     | x  | Abitti| Nettiyhteys *{{ book.abitti.nicename }}*ssa Nettiniilon tarjoaman proxy-palvelimen kautta. | tutkitaan |
 
 
 ## Ei korjata
@@ -43,6 +41,7 @@ Tässä tiedossa olevia ongelmakohtia, joita ei ole aietta korjata tai joiden ko
 | x   |       | x  | Netti | Mikäli opettaja liittyy laitteeseen sekä ethernet-kaapelilla että langattomasti, ei opettaja välttämättä pääse kirjautumaan Nettiniilon hallintapaneeliin tai kykene muutenkaan hyödyntämään laitetta. Opettajan päätelaitteen käyttöjärjestelmä ei välttämättä ymmärrä useaa yhtäaikaista uplink-yhteyttä. |
 | x   |       |    | Netti | Osoiterajaukset voi tehdä vain domain-tasolla, ts. kun esimerkiksi osoite `http://joku.domain.fi` on sallittuna niin kaikki muotoa `http://joku.domain.fi/....` olevat osoitteet ovat sallittuja.<sup>1</sup> |
 | x   | x     |    | Netti | Jos nettiyhteyden rajaus on päällä ja opiskelija yrittää mennä verkkopalveluun, joka ei ole sallittujen joukossa ja ko. verkkopalvelu käyttää <kbd>HTTPS</kbd>-protokollaa, ei käyttäjälle näytetä Nettiniilon pääsynestoilmoitusta.<sup>2</sup> |
+| x   | x     |    | Netti | Nettiyhteysrajauksen ollessa käytössä iPadeilla (ja ehkä myös iPhoneilla) Safari-selain ei toimi oikein, koska Safari haluaa yhteyden Applen palvelimiin. Käytä Chrome- tai Firefox-selainta. |
 
 ### Huomioita kohtiin, joita ei korjata
 
