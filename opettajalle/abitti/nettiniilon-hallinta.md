@@ -24,7 +24,7 @@ Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.abitti.nicename 
 - Hallintapaneeli toimii parhaiten Chrome- ja Firefox-selaimilla.
 	- Abitti-koetilapalvelimessa on oletuksena käytössä {{ book.abitti.browser }}-selain, joka on käytännössä Firefox muutamia eroavaisuuksia lukuunottamatta.
 	- Tiedossa on, että Internet Explorer -selaimella hallintapaneeli ei välttämättä toimi oikein. Tämä ei ole ongelma *{{ book.abitti.nicename }}*ssa, mutta *{{ book.netti.nicename | lower }}*ssa kylläkin.
-- Jotta hallintapaneeliin meneminen onnistuu 17.8.2015 jälkeen päivitetyllä Abitti-palvelintikulla (Abitti-palvelintikun v37 tai uudempi), on Nettiniilon ohjelmistoversion oltava vähintään v1.0.0!* Mikäli näin ei ole, päivitä Nettiniilo ensin <em>{{ book.netti.nicename | lower }}</em>ssa!
+- Jotta hallintapaneeliin meneminen onnistuu 17.8.2015 jälkeen päivitetyllä Abitti-palvelintikulla (Abitti-palvelintikun v37 tai uudempi), on Nettiniilon ohjelmistoversion oltava vähintään v1.0.0! Mikäli näin ei ole, päivitä Nettiniilo ensin <em>{{ book.netti.nicename | lower }}</em>ssa!
 - Halutessasi kirjautua hallintapaneeliin, älä kirjoita osoitetta <{{ book.abitti.urls.admin }}> selaimen mahdolliseen hakukenttään ruudun pystysuunnassa keskelle vaan selaimen yläreunassa olevaan osoitekenttään. Paina tämä jälkeen `Enter`.
 
 
