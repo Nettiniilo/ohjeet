@@ -14,6 +14,7 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 <dd>
 	<ul>
 		<li>Parannus Nettiniilon materiaalinjaon ulkoasuun {{ book.abitti.nicename }}a käytettäessä.</li>
+		<li>Tämän päivityksen asentaminen ei ole kiireellistä eikä sinänsä edes välttämätöntä, mutta sen asentaminen parantaa opiskelijoiden kokemaa käyttökokemusta Nettiniilon materiaalinjakoon liittyen.</li>
 	</ul>
 </dd>
 <dt>v1.1.0 (29.4.2016)</dt>
@@ -81,13 +82,13 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 		<li>Ilmoita käyttäjälle laitteen ohjelmistoa päivitettäessä mikäli tarjottu päivitystiedosto ei ole tarjoitettu kyseiselle laitealustalle</li>
 		<li>Hallintapaneelin salasanan vaihtaminen on nyt mahdollista. Salasana säilyy Nettiniilon ohjelmistopäivityksen yhteydessä tästä versiosta eteenpäin.</li>
 		<li>Langattoman verkon asetukset säilyvät Nettiniilon ohjelmistopäivityksen yhteydessä tästä versiosta eteenpäin.</li>
-		<li>YTL:n Abitti-palvelimeen tekemien muutoksien johdosta *{{ book.abitti.nicename }}*ssa Nettiniilon hallintapaneeliin on mentävä tästä eteenpäin osoitteen <{{ book.abitti.urls.admin }}> kautta. Nettiniilo tukee hallintapaneeliin menemistä varten sekä vanhaa porttimääritystä (8020) vanhempia v37 aiempia Abitti-tikkuja varten että uutta porttimääritystä (80).</li>
+		<li>YTL:n Abitti-palvelimeen tekemien muutoksien johdosta <em>{{ book.abitti.nicename }}</em>ssa Nettiniilon hallintapaneeliin on mentävä tästä eteenpäin osoitteen <{{ book.abitti.urls.admin }}> kautta. Nettiniilo tukee hallintapaneeliin menemistä varten sekä vanhaa porttimääritystä (8020) vanhempia v37 aiempia Abitti-tikkuja varten että uutta porttimääritystä (80).</li>
 	</ul>
 </dd>
 <dt>v2015-07-28 beta (28.7.2015)</dt>
 <dd>
 	<ul>
-		<li>Materiaalinjako siirretty *{{ book.netti.nicename | lower }}*ssa portista 80 porttiin 8888</li>
+		<li>Materiaalinjako siirretty <em>{{ book.netti.nicename | lower }}</em>ssa portista 80 porttiin 8888</li>
 		<li>Käyttäjälle annettavia tietoja/ohjeita parannettu estetyn domainin tapauksessa</li>
 	</ul>
 </dd>
@@ -97,7 +98,7 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 		<li>Huomioi Chromebookien NetBIOS-/host-nimenä käyttämä * hallintapaneelin Status-näkymässä</li>
 	</ul>
 </dd>
-<dt>v2015-05-18 beta (18.5.2015</dt>
+<dt>v2015-05-18 beta (18.5.2015)</dt>
 <dd>
 	<ul>
 		<li>Hallintapaneelin Status-näkymässä näytetään nyt erillisessä sarakkeessaan myös verkosta pois käyneet</li>
@@ -131,8 +132,8 @@ Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on
 <dt>v15.03.22 beta (22.3.2015)</dt>
 <dd>
 	<ul>
-		<li>*{{ book.netti.nicename }}*n rekisteröintisivun ulkoasua ja toimintaa parannettu</li>
-		<li>Laitteen NetBIOS-/host-nimen ja IP-osoitteen näyttö *{{ book.netti.nicename | lower }}*ssa hallintapaneelin Status-näkymässä kun oppilas ei vielä ole rekisteröitynyt</li>
+		<li><em>{{ book.netti.nicename }}</em>n rekisteröintisivun ulkoasua ja toimintaa parannettu</li>
+		<li>Laitteen NetBIOS-/host-nimen ja IP-osoitteen näyttö <em>{{ book.netti.nicename | lower }}</em>ssa hallintapaneelin Status-näkymässä kun oppilas ei vielä ole rekisteröitynyt</li>
 		<li>Päivitystoiminnon korjaus</li>
 		<li>Hallintapaneelissa WLAN- ja nettirajaussyötteiden validointia parannettu</li>
 	</ul>
