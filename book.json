@@ -7,7 +7,7 @@
 	"structure": {},
 	"links": {
 		"sidebar": {
-			"TILAA NETTINIILO": "http://nettiniilo.fi/"
+			"TILAA NETTINIILO": "http://www.nettiniilo.fi/"
 		},
 		"sharing": {
 			"weibo": null
@@ -55,7 +55,7 @@
 		},
 		"conformity": {
 			"issuer": "Nettiniilo Oy (Y-tunnus: <a href='https://tietopalvelu.ytj.fi/yritystiedot.aspx?yavain=2599364&tarkiste=B20BC7668D7049716D9C81AD3099E8E3B3EC0AA9'>2730021-4</a>)",
-			"declaration": "https://nettiniilo.fi/files/Nettiniilo-DoC.pdf"
+			"declaration": "https://www.nettiniilo.fi/files/Nettiniilo-DoC.pdf"
 		}
 	},
 	"pdf": {
