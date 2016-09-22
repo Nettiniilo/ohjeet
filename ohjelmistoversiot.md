@@ -1,12 +1,21 @@
 # Tietoa Nettiniilon ohjelmistoversiosta
 
+
 <!-- toc -->
 
 ## Versiohistoria
 
 Tässä on listattuna Nettiniilon ohjelmistoversiot niin, että vanhin versio on alimpana kunkin version yhteydessä on listattu ne ominaisuudet, jotka ovat käyttäjän näkökulmasta muuttuneet jollain tavalla.
 
+*Ohjeet päivittämiseen sekä tarvittavat firmware-tiedostot löydät [Ohjelmistopäivitys ja resetointi](/yllapitajalle/paivittaminen.html) -sivulta.*
+
 <dl>
+<dt><a href="/yllapitajalle/paivittaminen.html">v1.1.1</a> (22.9.2016)</dt>
+<dd>
+	<ul>
+		<li>Parannus Nettiniilon materiaalinjaon ulkoasuun {{ book.abitti.nicename }}a käytettäessä.</li>
+	</ul>
+</dd>
 <dt>v1.1.0 (29.4.2016)</dt>
 <dd>
 	<ul>
