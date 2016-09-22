@@ -8,8 +8,8 @@ Nettiniilon ohjelmistoa (firmware) on mahdollista päivittää valmistajan jakel
 
 | Versio | Julkaisu | Nettiniiloille, joiden... | MD5 checksum |
 |--------|----------|---------------------------|--------------|
-| <a href="https://www.nettiniilo.fi/firmware/nettiniilo_v1.1.1_hwrev2.zip" rel="nofollow">v1.1.1-hwrev2</a> | 22.9.2016 | Sarjanumerot muotoa xxxxNN1yyyy | e406f6656873f9b4b2fd6eff44559bd6
-| <a href="https://www.nettiniilo.fi/firmware/nettiniilo_v1.1.1_hwrev1.zip" rel="nofollow">v1.1.1-hwrev1</a> | 22.9.2016 | Sarjanumerossa vain numeroita | 2546a145c598cb4a65507764b249619c
+| <a href="https://www.nettiniilo.fi/firmware/nettiniilo_v1.1.1_hwrev2.zip" rel="nofollow">v1.1.1-hwrev2</a> | 22.9.2016 | sarjanumerot ovat muotoa xxxxNN1yyyy | e406f6656873f9b4b2fd6eff44559bd6
+| <a href="https://www.nettiniilo.fi/firmware/nettiniilo_v1.1.1_hwrev1.zip" rel="nofollow">v1.1.1-hwrev1</a> | 22.9.2016 | sarjanumeroissa on vain numeroita | 2546a145c598cb4a65507764b249619c
 
 **HUOM!**
 
