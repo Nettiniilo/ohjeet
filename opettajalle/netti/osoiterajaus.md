@@ -38,6 +38,14 @@ Daum Equation Editor on Chrome-selaimen lisäosa, jolla voi kirjoittaa matematti
 - googleusercontent.com
 - gstatic.com
 
+## KungFu Writing
+
+Pitäisi toimia pelkästään ensimmäisen mainitun osoitteen sallimisella. Jos ongelmia, salli kaksi muutakin (tai voit varmuuden vuoksi sallia kaikki kolme samantien).
+
+- kungfuwriting.com
+- kfw.kungfuwriting.com
+- portal.kungfuwriting.com
+
 ## Molview.org
 
 Molview.org tarjoaa työkaluja kemian molekyylimallien ja reaktioyhtälöiden kirjoittamiseen.
