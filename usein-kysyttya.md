@@ -6,7 +6,7 @@
 td { vertical-align: top; }
 </style>
 
-## Yleiset
+## Yleiset kysymykset
 
 Nämä ohjeet ovat joko yleisiä tai koskevat sekä Abitti- että *{{ book.netti.nicename | lower }}*a.
 
@@ -17,7 +17,7 @@ Nämä ohjeet ovat joko yleisiä tai koskevat sekä Abitti- että *{{ book.netti
 | 3. | Nettiniilon materiaalijaon kautta jaettuja video- ja äänitiedostoja ei voi kelata. | Päivitä Nettiniilo vähintään ohjelmistoversioon 1.1.0 tai uudempaan. |
 
 
-## *{{ book.abitti.nicename }}*
+## Abitti-moodiin liittyen
 
 *{{ book.abitti.nicename }}* on tarkoitettu käytettäväksi YTL:n Abitti-nimisen sähköisen kurssikoejärjstelmän kanssa. Mikäli et löydä kysymykseesi vastausta tästä listasta tai sisällysluettelon *{{ book.abitti.nicename }}*n alla olevista ohjeista, ota yhteyttä.
 
@@ -30,7 +30,7 @@ Nämä ohjeet ovat joko yleisiä tai koskevat sekä Abitti- että *{{ book.netti
 | 5. | Videot ja äänet eivät toimi opiskelijan koneelta Nettiniilon tiedostonjakoa osoitteessa <{{ book.abitti.urls.share }}> käytettäessä. | Varmista, että käytössänne on Abitti-opiskelijantikkujen versio 45 (25.9.2015) tai uudempi. Abitti-järjestelmän versioista v37 (17.8.2015), v40 (4.9.2015) ja v43 (noin 15.9.2015 paikkeilla) puuttuu mediatoisto-ohjelma, jota videoiden ja äänien katseluun/kuunteluun tarvitaan. |
 
 
-## *{{ book.netti.nicename }}*
+## Nettimoodiin liittyen
 
 Mikäli et löydä kysymykseesi vastausta tästä listasta, yllä olevasta *Yleiset*-kohdasta tai sisällysluettelon *{{ book.netti.nicename | lower }}*n alla olevista ohjeista, ota yhteyttä.
 
