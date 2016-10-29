@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-## Kirjautuminen Nettiniiloon
+## Kirjautuminen Nettiniilon hallintapaneliin
 
 Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.abitti.nicename }}*in, käynnistänyt Abitti-koetilapalvelimen ja liittänyt koetilapalvelimen ethernet-johdolla Nettiniilon PoE LAN -porttiin, voit jatkaa seuraavaan vaiheeseen eli kirjautua sisään Nettiniilon hallintapaneeliin Abitti-koetilapalvelimelta:
 
@@ -17,7 +17,6 @@ Nyt kun olet käynnistänyt Nettiniilon, asettanut sen *{{ book.abitti.nicename 
 <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" width="420" height="315" src="https://www.youtube.com/embed/Ll5rfAPH0oA" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<!-- ![Nettiniilon hallintapaneeliin kirjautuminen](https://placehold.it/800x400 "Nettiniilon hallintapaneeliin kirjautuminen (tulossa)") -->
 
 ### Huomioita hallintapaneeliin kirjautumisesta
 
@@ -46,7 +45,6 @@ Nyt kun olet kirjautunut Abitti-palvelimen {{ book.abitti.browser }}-selaimen av
 <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" width="420" height="315" src="https://www.youtube.com/embed/At4qJw_bkws" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<!--![WLAN-verkon nimi ja salasana](https://placehold.it/800x400 "WLAN-verkon nimi ja salasana (tulossa)") -->
 
 ### Huomioita WLAN-verkon nimen asettamisesta
 
@@ -61,4 +59,4 @@ Nyt sinulla on Abitti-verkko valmiina käyttöön. Tee vielä seuraavat toimet n
 3. Valitse koetilapalvelimella käyttöön siirtotikulle tallentamasi koetiedosto ja syötä oma.abitti.fi-palvelusta tiedostoa varten saamasi purkuavain.
 4. Nyt pääsette aloittamaan sähköisen kokeen!
 
-![Kuva tai video koepaketin tuonnista käyttöön](https://placehold.it/800x400 "Kuva tai video koepaketin tuonnista käyttöön (tulossa)")
+<!-- ![Kuva tai video koepaketin tuonnista käyttöön](https://placehold.it/800x400 "Kuva tai video koepaketin tuonnista käyttöön (tulossa)") -->

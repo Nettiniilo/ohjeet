@@ -21,11 +21,11 @@ Ottaaksesi Nettiniilon käyttöön Abitti-järjestelmän kanssa käytettäväksi
 	- Mikäli laitteen päällä oleva WPS-valo ei pala:
 		- paina WPS-nappia kerran kevyesti (kuulet pienen napsahduksen) ja odota
 		- parin sekunnin sisällä WPS-napin painamisesta nappi alkaa vilkkua
-		- odota noin 10 sekuntia kunnes napin vilkkuminen päättyy
+		- odota noin 30 sekuntia kunnes napin vilkkuminen päättyy
 		- kun WPS-valo jää palamaan, on laite *{{ book.abitti.nicename }}*ssa
 6. Jatka ohjeiden seuraavaan vaiheeseen.
 
-![Kuva tai video Nettiniilon käynnistämisestä](https://placehold.it/800x400 "Kuva tai video Nettiniilon käynnistämisestä (tulossa)")
+<!-- ![Kuva tai video Nettiniilon käynnistämisestä](https://placehold.it/800x400 "Kuva tai video Nettiniilon käynnistämisestä (tulossa)") -->
 
 
 ## Koetilapalvelimen käynnistäminen
