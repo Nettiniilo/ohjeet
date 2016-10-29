@@ -9,9 +9,13 @@ Nettiniilon *{{ book.abitti.nicename }}* on tarkoitettu käytettäväksi oppilai
 *{{ book.abitti.nicename }}*ssa Nettiniilo toimii "kaapelinkorvaajana" mahdollistaen Abitti-järjestelmää hyödyntävien kurssikokeiden järjestämisen alkuperehdytyksen jälkeen ilman teknisen tuen tarvetta, kustannustehokkaasti ja ilman kaapeliviidakoita tai muita "johtotehtäviä".
 
 
-## *{{ book.abitti.nicename }}*ssa Nettiniilo toimii kytkimenä
+## Teknistä tietoa moodista
 
 Olleessaan *{{ book.abitti.nicename }}*ssa Nettiniilo on ethernet-verkon näkökulmasta kytkin (*{{ book.netti.nicename | lower }}*ssa Nettiniilo on reititin). Toisin sanoen, Nettiniilo ei *{{ book.abitti.nicename }}*ssa ollessaan toimi DHCP-palvelimena eikä siis jaa IP-osoitteita siihen langattomasti tai ethernet-kaapelilla liitetyille laitteille. Päinvastoin Nettiniilo olettaa *{{ book.abitti.nicename }}*ssa, että samassa verkossa on joku DHCP-palvelimen roolia toimittava laite. Abitti-koetilapalvelin on YTL:n toimesta ohjelmoitu toimimaan DHCP-palvelimena.
+
+Nettiniilo tarjoaa hallintapaneelissaan ({{ book.abitti.urls.admin }}) määritetyn nimisen WLAN-verkon ja reitittää WLAN-liikenteen edelleen kuin kytkin.
+
+Huomaa, että Nettiniilon hallintapaneeliin pääsee Abitti-palvelimelta muttei Abitti-opiskelijankoneelta; tämä rajoitus johtuu Abitti-järjestelmän palomuuriasetuksista.
 
 
 ## Mahdollisuus hybridiverkkoon

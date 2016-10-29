@@ -8,7 +8,23 @@ Nettiniilon *{{ book.netti.nicename | lower }}* mahdollistaa opettaja- ja oppitu
 
 ## {{ book.netti.nicename }}n käytön edellytykset
 
-Täydennystä tulossa...
+Jotta Nettiniiloa voidaan hyödyntää {{ book.netti.nicename | lower }}ssa täytyy käytettävissä olla sopiva Internet-yhteys Nettiniilosta eteenpäin. Ideana on, että opiskelijat liittyvät Nettiniilon tarjoamaan langattomaan verkkoon, opettaja voi seurata verkkoon liittyneitä ja siitä poistuneita ja opettaja voi asettaa mihin Internet-domaineihin Nettiniilon tarjoaman langattoman verkon kautta on pääsy.
+
+Internet-yhteys voidaan jakaa Nettiniiloon usealla tavalla; [lisätietoa](./../opettajalle/netti/nettiniilon-hallinta.md#internet-yhteyden-muodostaminen-nettiniilosta).
+
+*Mikäli yhteys halutaan muodostaa liittämällä Nettiniilon *WAN/LAN*-portti (NAT-laitteen WAN-puoli) koulun olemassa olevaan ethernet-yhteyteen, lue alla oleva osio teknisistä tiedoista!*
+
+
+## Teknistä tietoa moodista
+
+{{ book.netti.nicename }}ssa ollessaan Nettiniilo toimii NAT-reitittimenä, ts. *PoE LAN* -portin ja jakamansa langattoman verkon suuntaan Nettiniilo toimii tällöin DHCP- ja DNS-palvelimina.
+
+***VAROITUS:*** Koska Nettiniilo toimii {{ book.netti.nicename | lower }}ssa *PoE LAN* -portin suuntaan DHCP- ja DNS-palvelimina, ***on erittäin tärkeää ettei {{ book.netti.nicename | lower }}ssa olevan Nettiniilon *PoE LAN* -porttia kytketä koulun olemassaolevana ethernet-verkkoon!*** Tästä varoitetaan Nettiniilon mukana tulevien ohjeiden ensimmäisessä kappaleessa ja lisäksi käsketään kysymään lupa rehtorilta mikäli Nettiniilon *WAN/LAN*-portti haluttaisiin liittää koulun ethernet-verkkoon rajatun Internet-yhteyden jakamiseksi opiskelijoille. Huomaathan, että uplink-yhteys Nettiniilosta Internetin suuntaan voidaan muodostaa *WAN/LAN*-portista koulun seinään kytketyn ethernet-kaapelin lisäksi [muillakin tavoilla](./../opettajalle/netti/nettiniilon-hallinta.md#internet-yhteyden-muodostaminen-nettiniilosta).
+
+Nettiniilo tarjoaa HTTP-palvelinohjelmiston kautta nimirekisteröintiin käytettävän Captive Portal -toteutuksen ({{ book.netti.urls.landing }}), johon käyttäjä ohjataan yrittäessään käyttää nettiä Nettiniilon kautta (uudelleenohjaus tehdään teknisistä syistä vain mikäli käyttäjä yritti mennä HTTP-osoitteeseen, ei HTTPS-osoitteille). Ennen nimirekisteröinnin tekemistä kaikki yhteydenottoyrityksen Internetin suuntaan estetään. Mikäli nimirekisteröinti ei avaudu käyttäjälle automaattisesti, tulee hänen mennä osoitteeseen {{ book.netti.urls.landing }} rekisteröityäkseen.
+
+Lisäksi HTTP-palvelinohjelmiston kautta on toteutettuna hallintapaneeli ({{ book.netti.urls.admin }}) ja materiaalinjakopalvelun ({{ book.netti.urls.share }}).
+
 
 <!--
 ## Nettiniilon palauttaminen tehdasasetuksiin

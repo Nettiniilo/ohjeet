@@ -28,8 +28,7 @@ Nettiniilon kautta voidiaan sekä {{ book.abtti.nicename }}ssa että {{ book.net
 
 ### Teknistä tietoa moodeista
 
-#### {{ book.abitti.nicename }}
+Teknistä tietoa {{ book.abitti.nicename }}sta ja {{ book.netti.nicename | lower }}sta löydät niitä kutakin moodia käsittelevältä alasivulta:
 
-{{ book.abitti.nicename }}ssa olleessaan Nettiniilo toimii teknisesti kytkimenä ja olettaa, että samassa verkossa joku muu laite hoitaa DHCP-palvelimen tehtävät. Nettiniilon IP-osoite on {{ book.abitti.urls.ip }}.
-
-Täydennystä tulossa...
+- [Teknistä tietoa {{ book.abitti.nicename }}sta](./abitti.md)
+- [Teknistä tietoa {{ book.netti.nicename | lower }}sta](./netti.md)
