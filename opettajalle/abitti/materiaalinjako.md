@@ -15,9 +15,37 @@ Nettiniilon avulla oheisaineistojen jakaminen Abitti-kokeeseen on suoraviivaista
 3. Varmista, että Nettiniilo on *{{ book.abitti.nicename }}ssa*.
 4. Liitä oheisaineistot sisältävä muistitikku Nettiniilon USB-porttiin.
 5. Varmista, että opiskelijat ovat käynnistäneet koneensa Abitti-opiskelijantikuilta.
-6. Kehota opiskelijoita...
-	1. avaamaan uusi selainikkuna (`Ctrl+N`) tai uusi välilehti (`Ctrl+T`) ja
-	2. kirjoittamaan em. ikkunan/välilehden osoiteriville **{{ book.abitti.urls.share }}** ja painamaan `Enter`.
+6. Kun Abitti-koe on aloitettu, näkyy opiskelijoilla kokeen yläreunassa nappi/linkki ***Nettiniilon materiaalinjako***
+
+***Huomaa***, että voit jakaa Nettiniilon avulla oheisaineistoja myös kaapeliyhteydellä toteutettuun Abitti-verkkoon! [Lisätietoja](../../yllapitajalle/abitti.md#aineistojen-jakaminen-nettiniilon-avulla-abitti-kaapeliverkkoon).
+
+### Mikäli jaetut aineistot eivät näy opiskelijoille
+
+Mikäli nappia/linkkiä Nettiniilon materiaalinjakoon ei näy opiskelijoiden kokeen yhteydessä, toimi näin:
+
+1. Kehota opiskelijoita lataamaan koenäkymä uudestaan (`Ctrl+R` tai `F5`, Apple: `Cmd+R`)
+2. Mikäli edellä mainittukaan ei auttanut, kehoita opiskelijoita avaamaan uusi selainikkuna (`Ctrl+N`) tai uusi välilehti (`Ctrl+T`) ja
+3. kirjoittamaan em. ikkunan/välilehden osoiteriville **{{ book.abitti.urls.share }}** ja painamaan `Enter`.
+
+### Tietoa linkistä Nettiniilon materiaalinjakoon
+
+Mikäli:
+
+- Abitti-koe on laadittu käyttäen [Tweak-A-bitti](https://bit.ly/abitti-chrome) -selainlaajennusta,
+- Nettiniilo on käytössä joko yhteyksien muodostamiseen tai vain materiaalinjakoa varten ja
+- Nettiniilon USB-porttiin on liitettynä muistitikku, joka sisältää jaettavaksi haluttuja tiedostoja
+
+niin opiskelijalle näkyy kokeen yhteydessä nappi/linkki Nettiniilon materiaalinjakoon.
+
+### Materiaalinjakolinkin näkymisen toimintaperiaate
+
+- Tweak-A-bitti -selainlaajennus lisää laaditun Abitti-kokeen yhteyteen napinlisäystoiminnon.
+- Kun Abitti-koe aloitetaan, em. toiminto tarkistaa onko koeverkossa Nettiniiloa ja jos on, onko Nettiniilon USB-porttiin liitettynä muistitikkua.
+	- Jos Nettiniilo ja muistitikku löytyvät, näytetään nappi/linkki Nettiniilon materiaalinjakoon.
+- Mikäli Nettiniiloa tai muistitikkua ei löydy
+	- opiskelijan kone siirtyy tarkistamaan 10 sekunnin välein onko materiaalinjako otettu käyttöön (Nettiniilo paikalla ja muistitikku liitettynä Nettiniiloon).
+	- opiskelijan kone jatkaa em. tarkistamista viiden (5) minuutin ajan. Mikäli tämän ajan sisällä jaettavaa aineistoa ei löytynyt, lopettaa opiskelijan kone yrittämästä löytää aineiston.
+	- Em. yritysajan saa aloitettua uudelleen lataamalla koekäyttöliittymän uudestaan kullakin opiskelijankoneella painamalla `Ctrl+R` tai `F5` (Apple: `Cmd+R`).
 
 ## Tuetut tiedostotyypit
 
