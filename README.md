@@ -9,4 +9,4 @@ Huomaathan, että
 - voit tehdä sanahakuja koko ohjesivustolta käyttäen yläreunan suurennuslasi-työkalua ja
 - ohjeiden käyttö on sujuvaa myös mobiililaitteilla.
 
-![Nettiniilo](https://www.nettiniilo.fi/img/nettiniilo-laatikossa_jordman.jpg "Nettiniilo paketissaan")
+![Nettiniilo](/images/nettiniilo-laatikossa_jordman.jpg "Nettiniilo paketissaan")
