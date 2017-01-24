@@ -77,10 +77,12 @@ Pitäisi toimia osoiterajauksessa suoraan pelkällä `peda.net` -osoitteen salli
 ## SanomaPro-oppimisympäristö
 
 - sanomapro.fi
-- oppimisymparisto.sanomapro.fi
+- www.wiris.net
+- s.brightspace.com
+- api.brightspace.com
 - ajax.googleapis.com
 - maxcdn.bootstrapcdn.com
-- s.brightspace.com
+- dnn506yrbagrg.cloudfront.net
 
 ## Socrative
 
