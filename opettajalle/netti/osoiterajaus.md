@@ -76,7 +76,7 @@ Pitäisi toimia osoiterajauksessa suoraan pelkällä `peda.net` -osoitteen salli
 
 ## SanomaPro-oppimisympäristö
 
-Huom! Yhden alla olevista riveistä kuuluu alkaa pisteellä.
+Huom! Kahden alla olevista riveistä kuuluu alkaa pisteellä.
 
 - sanomapro.fi
 - www.wiris.net
