@@ -76,13 +76,14 @@ Pitäisi toimia osoiterajauksessa suoraan pelkällä `peda.net` -osoitteen salli
 
 ## SanomaPro-oppimisympäristö
 
+Huom! Yhden alla olevista riveistä kuuluu alkaa pisteellä.
+
 - sanomapro.fi
 - www.wiris.net
-- s.brightspace.com
-- api.brightspace.com
 - ajax.googleapis.com
 - maxcdn.bootstrapcdn.com
-- dnn506yrbagrg.cloudfront.net
+- .brightspace.com
+- .cloudfront.net
 
 ## Socrative
 
