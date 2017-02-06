@@ -76,12 +76,16 @@ Pitäisi toimia osoiterajauksessa suoraan pelkällä `peda.net` -osoitteen salli
 
 ## SanomaPro-oppimisympäristö
 
-Huom! Kahden alla olevista riveistä kuuluu alkaa pisteellä.
+Huom! Viimeisen kahden alla olevista riveistä kuuluu alkaa pisteellä.
 
 - sanomapro.fi
 - www.wiris.net
 - ajax.googleapis.com
 - maxcdn.bootstrapcdn.com
+- mathjax.org
+- ytimg.com
+- youtube-nocookie.com
+- googlevideo.com
 - .brightspace.com
 - .cloudfront.net
 
