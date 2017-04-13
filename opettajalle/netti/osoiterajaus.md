@@ -74,7 +74,7 @@ Mikäli et käytä Otavan sähköisen ympäristön videoita, ensimmäiset neljä
 
 Pitäisi toimia osoiterajauksessa suoraan pelkällä `peda.net` -osoitteen sallimisella.
 
-## SanomaPro-oppimisympäristö
+## SanomaPro Kompassi
 
 Huom! Viimeisen kahden alla olevista riveistä kuuluu alkaa pisteellä.
 
@@ -88,6 +88,14 @@ Huom! Viimeisen kahden alla olevista riveistä kuuluu alkaa pisteellä.
 - googlevideo.com
 - .brightspace.com
 - .cloudfront.net
+
+### Helsingin Sanomien aineistot
+
+Mikäli SanomaPro Kompassi-kokeen aineistossa on Helsingin Sanomien artikkeleita ja/tai videoita niin lisää myös seuraavat osoitteet sallituiksi:
+
+- hs.fi
+- files.snstatic.fi
+
 
 ## Socrative
 
