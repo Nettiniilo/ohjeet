@@ -64,6 +64,7 @@ Oheisaineistoina voidaan käyttää kaikkia Abitti-opiskelijankoneella avattavis
 - Videotiedostot (.mp4, .avi, .mov, .webm, .ogv)
 - Texas TI-Nspire -tiedostot (.tns, .tnsp)
 - Casio ClassPad -tiedostot (.vcp, .xcp)
+- JavaScript-ohjelmia (esim. HTML5-muotoiset [PhET-simulaatiot](https://phet.colorado.edu/fi/simulations/category/html))
 
 
 ## YTL:n toimien vaikutus materiaalinjakoon
