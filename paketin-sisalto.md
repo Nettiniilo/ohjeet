@@ -1,6 +1,6 @@
 # Nettiniilo-paketin sisältö
 
-- Käyttöönotto-ohjeet ([Lataa PDF](https://dl.dropboxusercontent.com/u/13648061/nettiniilo/nettiniilo-kayttoonotto.pdf))
+- Käyttöönotto-ohjeet ([Lataa PDF](/docs/nettiniilo-kayttoonotto.pdf))
 - Nettiniilo-laite ja virtalähde
 - WLAN-antenni
 - 2m ethernet-kaapeli
