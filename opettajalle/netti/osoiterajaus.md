@@ -64,6 +64,8 @@ Mikäli et käytä Otavan sähköisen ympäristön videoita, ensimmäiset neljä
 
 - opepalvelu.otava.fi
 - digikokeet.otava.fi
+- digikokeet-2.otava.fi
+- digikokeet-3.otava.fi
 - digitehtavat.otava.fi
 - cdn.mathjax.org
 - akamaihd.net
