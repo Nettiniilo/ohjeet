@@ -60,7 +60,7 @@ Pitäisi toimia osoiterajauksessa suoraan Moodlen osoitteen sallimisella.
 
 ## Otavan sähköiset palvelut
 
-Mikäli et käytä Otavan sähköisen ympäristön videoita, ensimmäiset neljä (4) riviä riittävät. Huomaa, että viimeinen rivi alkaa pisteellä!
+Mikäli et käytä Otavan sähköisen ympäristön videoita, ensimmäiset kuusi (6) riviä riittävät. Huomaa, että viimeinen rivi alkaa pisteellä!
 
 - opepalvelu.otava.fi
 - digikokeet.otava.fi
