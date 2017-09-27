@@ -81,6 +81,7 @@ Pitäisi toimia osoiterajauksessa suoraan pelkällä `peda.net` -osoitteen salli
 Huom! Viimeisen kahden alla olevista riveistä kuuluu alkaa pisteellä.
 
 - sanomapro.fi
+- sisalto.sanomapro.fi
 - www.wiris.net
 - ajax.googleapis.com
 - maxcdn.bootstrapcdn.com
