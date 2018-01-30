@@ -66,6 +66,8 @@ Mikäli et käytä Otavan sähköisen ympäristön videoita, ensimmäiset kuusi 
 - digikokeet.otava.fi
 - digikokeet-2.otava.fi
 - digikokeet-3.otava.fi
+- digikokeet-4.otava.fi
+- digikokeet-5.otava.fi
 - digitehtavat.otava.fi
 - cdn.mathjax.org
 - akamaihd.net
