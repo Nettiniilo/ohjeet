@@ -2,7 +2,7 @@
 
 Tällä sivulla on listattuna mitä verkko-osoitteita on sallittava, jotta tietyt verkkopalvelut toimivat oikein. Nämä lisävaatimukset koskevat lähinnä sisäänkirjautumista ja/tai teknisesti vaativampia sisältömuotoja kuten videoita sisältäviä verkkopalveluita.
 
-Jos joku tarvitsemasi palvelu ei tunnu toimivan oikein, ilmoittaisitko tästä <a href="mailto:nettiniilo@opetus.tv">nettiniilo@opetus.tv</a>.
+Jos joku tarvitsemasi palvelu ei tunnu toimivan oikein, ilmoittaisitko tästä <a href="mailto:{{ book.contact.email }}">{{ book.contact.email }}</a>.
 
 Salliaksesi {{ book.netti.nicename | lower }}n rajatusssa netinkäyttötilassa seuraavat palvelut, aseta sallittuihin osoitteisiin listatut:
 

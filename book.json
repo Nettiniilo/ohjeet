@@ -33,6 +33,9 @@
 		"website": "css/custom.css"
 	},
 	"variables": {
+		"contact": {
+			"email": "asiakaspalvelu@nettiniilo.fi"
+		},
 		"abitti": {
 			"nicename": "Abitti-moodi",
 			"urls": {
